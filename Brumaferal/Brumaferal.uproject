@@ -1,0 +1,7 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Description": "Brumaferal - original forest survival",
+  "Modules": [{"Name":"Brumaferal","Type":"Runtime","LoadingPhase":"Default"}],
+  "Plugins": [{"Name":"ProceduralMeshComponent","Enabled":true},{"Name":"PythonScriptPlugin","Enabled":true}]
+}
