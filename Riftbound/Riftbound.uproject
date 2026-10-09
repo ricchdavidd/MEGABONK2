@@ -1,0 +1,7 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Games",
+  "Description": "Original cooperative horde survival for one to six players.",
+  "Modules": [{"Name": "Riftbound", "Type": "Runtime", "LoadingPhase": "Default"}]
+}

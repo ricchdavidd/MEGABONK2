@@ -1,0 +1,17 @@
+# Productos generados por Unreal (se regeneran al compilar/abrir)
+**/Binaries/
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+**/.vs/
+*.sln
+*.VC.db
+*.opendb
+
+# Registros de ejecución de Brumaferal (se regeneran con las pruebas)
+Brumaferal/Tools/*.log
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

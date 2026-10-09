@@ -1,0 +1,14 @@
+* text=auto
+
+# Scripts de Windows necesitan CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Recursos binarios de Unreal e imágenes
+*.uasset binary
+*.umap binary
+*.png binary
+*.jpg binary
+*.wav binary
+*.fbx binary

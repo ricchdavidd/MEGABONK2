@@ -1,0 +1,241 @@
+Actúa como director de desarrollo de videojuegos y programador sénior especializado en Unreal Engine, acción en tercera persona, arte 3D estilizado y cooperativo. Desarrolla el juego descrito a continuación en el entorno disponible. No te limites a proponer ideas o escribir documentación: implementa, ejecuta, verifica y mejora.
+
+## Objetivo
+
+Crear un juego original de supervivencia roguelite en tercera persona, inspirado en las sensaciones de MEGABONK, para **un jugador o cooperativo de hasta seis jugadores en total**, con clases diferentes.
+
+Buscamos movimiento muy fluido, saltos satisfactorios, exploración vertical, hordas, ataques automáticos, elecciones de mejoras y combinaciones de poderes. La estética será retro 3D, con arte original y una calidad visual coherente.
+
+El objetivo final es un juego completo. Avanza mediante entregas jugables y verificables; no confundas una base técnica con un producto terminado ni prometas terminar todo en una sola sesión.
+
+## Contexto que debes respetar
+
+El usuario jugó MEGABONK para mostrar cómo funciona y cómo se siente. Su demostración fue una referencia para desarrollar nuestro juego, no una petición de entrenarte para jugar.
+
+La versión anterior, Riftbound, fue rechazada porque su presentación y experiencia no correspondían a lo esperado. No continúes ese diseño. Crea el nuevo proyecto en una carpeta separada y conserva el trabajo anterior. Reutiliza componentes técnicos únicamente cuando sean adecuados y estén comprobados.
+
+Los archivos de `sources/` son referencias de solo lectura.
+
+No extraigas ni reutilices código, modelos, texturas, sonidos, interfaces o personajes de MEGABONK. Construye una identidad propia a partir de principios de diseño similares.
+
+## Evidencia de la demostración
+
+Se observaron capturas sucesivas, no una grabación continua. Usa estas observaciones como referencia; no inventes mediciones ni atribuyas al usuario acciones que no quedaron registradas.
+
+Se observó:
+
+- Cámara alejada y, en varias capturas, bastante inclinada hacia el suelo, con espacio visible para anticipar amenazas y rutas.
+- Personaje pequeño respecto al escenario, pero reconocible.
+- Terreno con plataformas, desniveles, pendientes, paredes de roca, árboles y ruinas.
+- Cambios de posición entre zonas, con enemigos alrededor, detrás o en niveles inferiores.
+- Recogida de recompensas y apertura de cofres durante la progresión.
+- Revólver y posteriormente aura, junto con tomos y mejoras.
+- Una pantalla de elecciones que modificaba tamaño y daño del aura, velocidad de proyectiles y características del revólver.
+- A los dos minutos, aproximadamente, nivel 5 y 195 bajas; a los tres minutos, nivel 10 y más de 300 bajas en esa partida concreta.
+- Una barra de Gólem de Piedra mientras seguía apareciendo el objetivo de encontrar el portal del jefe.
+
+Estos números describen una partida con su configuración y progresión particular. No son objetivos obligatorios de equilibrio para nuestro juego.
+
+No se midieron con precisión velocidad, altura del salto, distancia de cámara, cadencias ni rutas completas. Obtén esos valores mediante referencias adicionales y pruebas propias.
+
+## Interpretación de diseño
+
+La experiencia depende de que desplazarse, combatir y recoger recompensas formen un mismo ciclo:
+
+**Explorar → atraer o esquivar enemigos → eliminar grupos → recoger recursos → elegir mejoras → acceder a encuentros más exigentes.**
+
+El movimiento debe servir para algo más que evitar daño. También permite alcanzar recompensas, aprovechar desniveles, encontrar rutas y decidir qué encuentro afrontar.
+
+La potencia del personaje debe cambiar de forma perceptible durante la partida. Las mejoras deben transformar ataques y decisiones, no limitarse a incrementar cifras.
+
+El combate debe permitir actuar con intención incluso cuando hay muchos enemigos. La claridad visual importa más que llenar la pantalla de efectos.
+
+Trata estas conclusiones como hipótesis que deben validarse jugando.
+
+## Prioridades
+
+1. Movimiento y cámara.
+2. Presentación visual desde la cámara real de juego.
+3. Combate, impactos y lectura de enemigos.
+4. Exploración, recompensas y progresión.
+5. Cooperativo y clases complementarias.
+6. Contenido, metaprogresión y acabado.
+
+Diseña la arquitectura multijugador desde el principio. Valida primero una experiencia individual convincente y después comprueba que conserva sus cualidades con seis jugadores.
+
+No añadas contenido para esconder problemas de movimiento, cámara o presentación.
+
+## Movimiento y cámara
+
+Implementa un controlador configurable y consistente con:
+
+- Movimiento relativo a la cámara, sin ventaja de velocidad diagonal.
+- Aceleración y frenado ágiles.
+- Salto con memoria breve de pulsación y tolerancia al abandonar bordes.
+- Control aéreo útil y aterrizajes estables.
+- Buen comportamiento en pendientes, escalones y bordes.
+- Una acción evasiva con función clara.
+- Animaciones y efectos discretos de carrera, salto, aterrizaje e impacto.
+
+La cámara debe ofrecer:
+
+- Giro orbital y sensibilidad configurable.
+- Encuadre amplio para leer terreno y amenazas.
+- Colisión con el escenario y recuperación suave.
+- Visibilidad adecuada al subir, bajar o acercarse a paredes.
+- Opciones para reducir vibración y efectos molestos.
+- Cámara individual por jugador en cooperativo.
+
+No supongas que mayor distancia o mayor campo de visión siempre mejoran la experiencia. Ajusta el encuadre con pruebas de legibilidad y comodidad.
+
+Centraliza los parámetros de movimiento y cámara para poder ajustarlos rápidamente.
+
+## Dirección artística original
+
+Define una propuesta visual breve antes de producir recursos: paleta, siluetas, materiales, iluminación, interfaz y efectos.
+
+Busca una estética retro 3D con:
+
+- Geometría sencilla pero diseñada deliberadamente.
+- Texturas de baja resolución coherentes entre recursos.
+- Personajes expresivos y reconocibles por su silueta.
+- Enemigos distinguibles por forma, movimiento y color.
+- Terreno y vegetación con variedad controlada.
+- Iluminación clara y buena separación entre suelo, amenazas y recompensas.
+- Interfaz legible, con jerarquía y sin saturación.
+
+La primera zona será un entorno natural con ruinas, rutas alternativas y diferencias de altura. Debe tener puntos de referencia reconocibles y espacios apropiados para combatir.
+
+Puedes usar primitivas para pruebas internas. No presentes una arena de cubos o cápsulas como una entrega artística satisfactoria.
+
+Evalúa el arte a la distancia habitual de cámara, también durante combate. Evita dedicar trabajo a detalles que no se perciben mientras se juega.
+
+## Combate y enemigos
+
+Combina ataques automáticos con una habilidad activa distintiva por clase.
+
+Implementa inicialmente un conjunto pequeño de enemigos bien diferenciados:
+
+- Perseguidor básico.
+- Atacante a distancia.
+- Enemigo resistente.
+- Enemigo que prepara una carga.
+- Élite con una variación reconocible.
+
+Los ataques peligrosos necesitan anticipación visual, respuesta posible y resultado comprensible. Evita daño difícil de identificar.
+
+Incluye impactos, proyectiles, sonido, números de daño opcionales y efectos de derrota. Limita su intensidad para mantener visible el escenario.
+
+Diseña un jefe con patrones, ventanas de respuesta y fases verificables. Aumentar únicamente su vida no cuenta como diseñar un jefe.
+
+## Exploración y progresión
+
+Construye una partida con principio, desarrollo, clímax y final.
+
+Incluye:
+
+- Experiencia y subida de nivel.
+- Elecciones de mejoras comprensibles.
+- Cofres y objetos que incentiven moverse.
+- Armas y modificadores con combinaciones interesantes.
+- Objetivos que conduzcan a encuentros y al jefe.
+- Victoria, derrota, reinicio y guardado persistente.
+
+Algunas mejoras deben cambiar el comportamiento: trayectorias, rebotes, área, movilidad, número de objetivos o interacciones entre habilidades.
+
+Define límites y costes para evitar opciones claramente superiores a todas las demás. Empieza con pocas combinaciones bien implementadas.
+
+## Cooperativo que aporte algo
+
+El cooperativo debe añadir decisiones, no limitarse a multiplicar enemigos.
+
+Diseña seis clases originales con funciones distintas: resistencia, movilidad, daño concentrado, control de grupos, apoyo y dispositivos. Todas deben ser viables en solitario y ninguna composición debe exigir una clase obligatoria.
+
+Introduce un conjunto acotado de sinergias verificables, por ejemplo: agrupar enemigos para ataques de área, proteger una reanimación o aprovechar un estado aplicado por un compañero. Evita interacciones que oculten amenazas o eliminen la participación de otros jugadores.
+
+Define explícitamente:
+
+- Qué experiencia, recursos y recompensas se comparten.
+- Qué elecciones pertenecen a cada jugador.
+- Cómo se evita que un jugador se quede sin progresión.
+- Cómo funcionan caída, reanimación y derrota.
+- Cómo cambia la dificultad según jugadores activos.
+- Qué sucede al desconectarse un cliente o salir el anfitrión.
+
+Las elecciones de mejoras no deben pausar la partida de todos. Diseña una solución que permita elegir sin castigar injustamente al jugador.
+
+## Arquitectura y red
+
+Usa el motor instalado si resulta adecuado; justifica cualquier migración.
+
+Separa responsabilidades de personaje, combate, habilidades, enemigos, generación de encuentros, progresión, interfaz, guardado y sesión. Mantén estadísticas y contenido ajustables mediante datos.
+
+Para red:
+
+- Servidor autoritativo sobre daño, recompensas y estado de partida.
+- Movimiento responsivo usando predicción y corrección del motor.
+- Límite efectivo de seis jugadores.
+- Replicación selectiva y efectos visuales locales cuando corresponda.
+- Manejo explícito de desconexiones.
+- Pruebas de latencia y pérdida de paquetes cuando las herramientas lo permitan.
+
+No anuncies soporte por Internet, Steam, invitaciones, reconexión o migración del anfitrión hasta implementarlo y verificarlo. Distingue pruebas locales de pruebas entre equipos.
+
+## Plan de entregas
+
+**Entrega 1 — Sensación y apariencia:** una zona pequeña representativa, personaje original, movimiento, cámara, enemigos básicos, impactos y recompensas. Debe permitir varios minutos de juego convincente.
+
+**Entrega 2 — Partida completa:** exploración, mejoras, aumento de dificultad, jefe, victoria, derrota y reinicio.
+
+**Entrega 3 — Cooperativo:** uno a seis jugadores, clases diferenciadas, sinergias, reanimación y pruebas de red.
+
+**Entregas posteriores:** más contenido, progresión persistente, audio, accesibilidad, menús, rendimiento y distribución.
+
+Cada entrega debe dejar una versión ejecutable. No amplíes el alcance si la base incumple sus criterios de aceptación.
+
+## Verificación obligatoria
+
+Para cada avance relevante:
+
+1. Define qué comportamiento debe cambiar.
+2. Implementa y compila.
+3. Ejecuta con gráficos.
+4. Inspecciona la apariencia en situaciones representativas.
+5. Prueba el comportamiento afectado.
+6. Corrige los fallos encontrados.
+7. Registra brevemente qué verificaste y qué sigue pendiente.
+
+Comprueba especialmente:
+
+- Cámara en paredes, pendientes y diferencias de altura.
+- Saltos desde bordes y aterrizajes.
+- Claridad durante combate denso.
+- Recogida y selección de mejoras.
+- Victoria, derrota y reinicio.
+- Una sesión con anfitrión y cinco clientes.
+- Guardado y carga.
+- Apertura del juego mediante un acceso sencillo.
+
+Una compilación correcta no demuestra buena jugabilidad. Una prueba sin gráficos no demuestra calidad visual. No declares comprobaciones que no hayas realizado.
+
+Identifica el hardware y fija un objetivo de rendimiento razonable, inicialmente 60 FPS si el equipo lo permite. Mide tiempos de fotograma y tirones bajo carga representativa.
+
+## Forma de trabajar
+
+Toma decisiones profesionales dentro del alcance. Pregunta solamente cuando falte información imprescindible, haya una decisión difícil de revertir o se necesiten compras, credenciales o publicaciones.
+
+No instales dependencias innecesarias. Mantén cambios recuperables y usa control de versiones cuando sea posible.
+
+Comunícate en español sencillo con avances breves: qué funciona, cómo se comprobó y qué falta. Mantén una lista priorizada de trabajo y un registro de decisiones.
+
+Si no puedes observar o controlar el juego con suficiente precisión, declara esa limitación y busca una alternativa disponible. No confundas capturas aisladas con una prueba continua.
+
+El usuario debe poder jugar sin abrir código ni interpretar instrucciones técnicas. Entrega un acceso de inicio claro y controles visibles.
+
+## Comienza ahora
+
+Inspecciona el entorno, revisa las referencias y establece criterios concretos para la primera entrega. Después implementa y verifica esa entrega.
+
+La meta inmediata es que el usuario abra el juego y reconozca las sensaciones buscadas: libertad de movimiento, saltos útiles, cámara amplia, exploración con recompensas y combate creciente, dentro de un mundo original y visualmente coherente.
+
+El criterio final será la experiencia jugable, no la cantidad de código ni de sistemas anunciados.

@@ -1,0 +1,2740 @@
+{
+  "captura_inicio_utc": "2026-10-09T01:10:20.693151+00:00",
+  "archivos": [
+    {
+      "ruta": "Brumaferal/.git/COMMIT_EDITMSG",
+      "bytes": 46,
+      "sha256": "3e98f7496abc2592f1613ecbcf5c257fb699547b131a6c875c847c2925d4b561",
+      "modificacion_utc": "2026-10-03T10:00:54.253945+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/config",
+      "bytes": 130,
+      "sha256": "05becdb83bb897f6103c8d91439e2e9092144edf5b3955a746fce4975c12bfdc",
+      "modificacion_utc": "2026-10-02T22:20:08.657111+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "modificacion_utc": "2026-10-02T22:20:08.641123+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/HEAD",
+      "bytes": 23,
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "modificacion_utc": "2026-10-02T22:20:08.659755+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/applypatch-msg.sample",
+      "bytes": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "modificacion_utc": "2026-10-02T22:20:08.642128+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/commit-msg.sample",
+      "bytes": 1972,
+      "sha256": "efc1401b0e99d1ff51494d154d98b46c1e99059bcd8bf9f73cecde19fd3eb23b",
+      "modificacion_utc": "2026-10-02T22:20:08.642633+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4611,
+      "sha256": "9159720099ad5595b8e66645cbfd47763c1e920f46e0b50ae75e642bbec57ef0",
+      "modificacion_utc": "2026-10-02T22:20:08.643699+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/post-update.sample",
+      "bytes": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "modificacion_utc": "2026-10-02T22:20:08.643699+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/pre-applypatch.sample",
+      "bytes": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "modificacion_utc": "2026-10-02T22:20:08.643699+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/pre-commit.sample",
+      "bytes": 1649,
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+      "modificacion_utc": "2026-10-02T22:20:08.643699+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/pre-merge-commit.sample",
+      "bytes": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "modificacion_utc": "2026-10-02T22:20:08.645239+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/pre-push.sample",
+      "bytes": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "modificacion_utc": "2026-10-02T22:20:08.645239+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/pre-rebase.sample",
+      "bytes": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "modificacion_utc": "2026-10-02T22:20:08.645239+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/pre-receive.sample",
+      "bytes": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "modificacion_utc": "2026-10-02T22:20:08.646777+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "modificacion_utc": "2026-10-02T22:20:08.646777+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/push-to-checkout.sample",
+      "bytes": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "modificacion_utc": "2026-10-02T22:20:08.646777+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/sendemail-validate.sample",
+      "bytes": 2308,
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+      "modificacion_utc": "2026-10-02T22:20:08.648316+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/hooks/update.sample",
+      "bytes": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "modificacion_utc": "2026-10-02T22:20:08.648316+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/index",
+      "bytes": 2205,
+      "sha256": "055a357405c9c967e99b09a01feb954f246ed24b2f249a076f617ba709a49841",
+      "modificacion_utc": "2026-10-03T10:00:54.252423+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/info/exclude",
+      "bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "modificacion_utc": "2026-10-02T22:20:08.648316+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/logs/HEAD",
+      "bytes": 183,
+      "sha256": "1ef7c08b7cc571be9493569b222b30f3c91229186eb85ae7cbfe5f0fff9678fe",
+      "modificacion_utc": "2026-10-03T10:00:54.261218+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/logs/refs/heads/master",
+      "bytes": 183,
+      "sha256": "1ef7c08b7cc571be9493569b222b30f3c91229186eb85ae7cbfe5f0fff9678fe",
+      "modificacion_utc": "2026-10-03T10:00:54.261218+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/1b/4c9c902f63a0116883bcfb3857c72127eb34bc",
+      "bytes": 1073,
+      "sha256": "e7d4eab6a749d4d2c94619b2ae40e76f288910944a2cbc4c36983dac09dc6ba4",
+      "modificacion_utc": "2026-10-03T10:00:54.171805+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/1d/09cf13cc75fc8077be7b1f26c4fec809e4e80f",
+      "bytes": 45,
+      "sha256": "bcc9fdb0345db9c1bd4028de04e7e4a0ef0f3a178d2e703c434dcab76c0e50ce",
+      "modificacion_utc": "2026-10-03T10:00:54.234564+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/22/4e4864d2f3d1ee4b384003f63bd6c4f22b7f9c",
+      "bytes": 122,
+      "sha256": "5fd358b69dc59b3f3db55fe5d9224cec5e6461082fabb1ce91a7506457f6e9fa",
+      "modificacion_utc": "2026-10-03T10:00:54.226274+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/22/c47075bbce6b71f28da09db27fdc91cc5f6fff",
+      "bytes": 1238,
+      "sha256": "9552b36d7b1568b167f87c5dd0ed199ceaacf215c86abe924fdf817ca6ee64fa",
+      "modificacion_utc": "2026-10-03T10:00:54.193732+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/23/d2348259a52299ff8031aff6a6f1c1477c92d1",
+      "bytes": 881,
+      "sha256": "2e28286d380e3f6c9f1c10fc6bd98d980239b37f675869929691076c4d24e6de",
+      "modificacion_utc": "2026-10-03T10:00:54.153473+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/34/62ca60d23c1cd03e1d90d29ed7204f79fff0cf",
+      "bytes": 3292,
+      "sha256": "fca0d52ec94fdb37e56fdb5ce85330c5f1bdfe08ef9c1ec9691cf2a37cc9db59",
+      "modificacion_utc": "2026-10-03T10:00:54.146720+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/39/e112ffea725bf23a23048a006d56974952d483",
+      "bytes": 116,
+      "sha256": "7038364dc9eec079e09f8244f87c83b02dcdccc3ba6adebd2acd2a36a3d3d784",
+      "modificacion_utc": "2026-10-03T10:00:54.139162+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/3f/04dd2de1705e997847c9396f9afe40c46d549b",
+      "bytes": 2430,
+      "sha256": "edfed548f09e6e5c3f916342eb0efa94c921ddabe2c450403b85f63d542818da",
+      "modificacion_utc": "2026-10-03T10:00:54.148729+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/43/34b12b96fb16b4e7ac7fda0221ca8491e8301d",
+      "bytes": 141,
+      "sha256": "07ae3ae7995fd618fa208ba35532938dcaa3caa42942ad3ae780a03fb8d77bf8",
+      "modificacion_utc": "2026-10-03T10:00:54.256073+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/43/9d8629441125719b1705012e04fe4a413d7d26",
+      "bytes": 234,
+      "sha256": "da58f182f6b18f5ee6894534d92e16fec25a9ce07d971a5d6fa0b8752d00ad96",
+      "modificacion_utc": "2026-10-03T10:00:54.167076+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/46/a0e2ccaa731c8bbb8a68f564ea49ae15852119",
+      "bytes": 96,
+      "sha256": "6ec894768acbb95e99c916dd1dab1a0985a0daa615312b67ddfbc2fb6100f6b3",
+      "modificacion_utc": "2026-10-03T10:00:54.246319+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/4a/b5757f03a2cba223ad18254e5328cbf599e278",
+      "bytes": 179,
+      "sha256": "bdac103335b9f95977c2d08c1f886d2934f77b5e05acf2442aedaf0893570fd9",
+      "modificacion_utc": "2026-10-03T10:00:54.162882+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/4d/66db1035b45012cc8558ce29d4ec55b6d63b4e",
+      "bytes": 6244,
+      "sha256": "20974db4cd151853a2debc307c59177873d0cdebe09ab1b3a5d22502ddb62fb5",
+      "modificacion_utc": "2026-10-03T10:00:54.173326+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/59/a2b06de4e3fa7f60683eaffa66e33d3fbc4cc7",
+      "bytes": 319,
+      "sha256": "1bb6773c551d748e685e66ca5b8b8402803bee45fb0e49e1ab8951bd57805fa7",
+      "modificacion_utc": "2026-10-03T10:00:54.142701+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/62/02d43507f0a6602d130e6bec56d6019eb40238",
+      "bytes": 641,
+      "sha256": "3f42df08d36500f6aa16f29ea4e9840caf270378013db6c10a38b22037c2147f",
+      "modificacion_utc": "2026-10-03T10:00:54.189109+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/62/a67e559b0077f1c580431c1a859effc33f55eb",
+      "bytes": 123,
+      "sha256": "8a59225f86de7cd1f2808879a6c51f779d77249a629a1fa92639f0d004748474",
+      "modificacion_utc": "2026-10-03T10:00:54.230366+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/63/225e537309a1f2c55dd92e0e7f3c5bfb040671",
+      "bytes": 355,
+      "sha256": "ddfa1c5b3c05ad3cebfc2b9195b32b400079e8425d02b12dbd0e5b271e38b827",
+      "modificacion_utc": "2026-10-03T10:00:54.249375+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/76/0d2f23dcd319d6308ce724969c96358ea1a8be",
+      "bytes": 902,
+      "sha256": "c25b78b75e2fd7c95af773766305eb6628a2d0fdcbf0bd03711df6e83d3e814e",
+      "modificacion_utc": "2026-10-03T10:00:54.160832+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/9b/c873091cf37d4cd649b16a5427b4cb2bf21963",
+      "bytes": 1243,
+      "sha256": "bcfccfc4bbe0124cfb1334b56a365225eb1150334f0961df1454cde84d821d27",
+      "modificacion_utc": "2026-10-03T10:00:54.191725+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/9d/783c12f20d6f130e18a95268b2016db709a9d6",
+      "bytes": 4502,
+      "sha256": "c3ff29cd2e23b70a25258fb5858b848ee92c82dadad50b7437599ddc144ef35b",
+      "modificacion_utc": "2026-10-03T10:00:54.151935+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/9d/eb328e94559fb8c6587bcc7643fd4089c4339c",
+      "bytes": 175,
+      "sha256": "091b1f420f17d7386bb72b129e1e64048232bf54fa31cea9513ada300657eeab",
+      "modificacion_utc": "2026-10-03T10:00:54.156590+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/a2/3f85216330f4cb3d96dcf7b50db5ab5987398a",
+      "bytes": 86,
+      "sha256": "43649632cedb2c62e1f2c1117d27a8374367f814cc3205576a22ef6faa52d1d5",
+      "modificacion_utc": "2026-10-03T10:00:54.126814+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/b1/1b4f1c426a9701a88224711b671175486aff45",
+      "bytes": 3922,
+      "sha256": "aa3e082f67cad98dfadebe24962f7795e9f07c0e590a792ea48f6c297dfb4b0c",
+      "modificacion_utc": "2026-10-03T10:00:54.179420+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/b1/b79deb1b69bde451757b6e3105669003e7ff45",
+      "bytes": 126,
+      "sha256": "8a2a416b38da355610b1900723cab06ddb34a1318202615df9817791d62eada3",
+      "modificacion_utc": "2026-10-03T10:00:54.242183+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/b9/1190597a98ca3cd9d130ececd4ff4cc827d6b3",
+      "bytes": 487,
+      "sha256": "b750b73f1ab9b2e4ca2ddab146c7fa0673dee2c58093dbca1848c604b8c4c893",
+      "modificacion_utc": "2026-10-03T10:00:54.133935+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/ec/cac86e9eef8fd45d0b7414b57aba0ec6b0be45",
+      "bytes": 213,
+      "sha256": "509deff05bf5b129b151c4faf6334bb529780d8a10713a8f8e03f71d8054bdde",
+      "modificacion_utc": "2026-10-03T10:00:54.239129+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/f6/6d8d85fd3230a456aca89b03c64989bd2a5016",
+      "bytes": 3220,
+      "sha256": "af1cecd2b94895b1ce05977d6c343a76f90b2bd12a301b253111a90860c4d9dd",
+      "modificacion_utc": "2026-10-03T10:00:54.183017+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/f7/28d71c5b4cab22f1f678bb84bc04afae2dca2f",
+      "bytes": 184,
+      "sha256": "af7616b57e9fe539f856ff5c50aff94aa130c754ffbf3bd258cc8f8342154d77",
+      "modificacion_utc": "2026-10-03T10:00:54.183529+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/f7/d8fd87ab67c4a722ce2e81b2b874c9d89a825b",
+      "bytes": 218,
+      "sha256": "b3c3d4a3d2b0f8a6b432e3cc419a59ad8bb9f7d87344e46f54f5e7d57ac9679c",
+      "modificacion_utc": "2026-10-03T10:00:54.129843+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/objects/f9/41915c0effefe9a54cd9aca183b7c8144ddc28",
+      "bytes": 1273,
+      "sha256": "376d9030dfd746335d2bf874b2cd0f4afc774d6d58c10297fcd93df3d609c1eb",
+      "modificacion_utc": "2026-10-03T10:00:54.176381+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.git/refs/heads/master",
+      "bytes": 41,
+      "sha256": "7a66fa039a8b132f61e8bc056ea046b7cd591324f21d326128d1a01d3ba40808",
+      "modificacion_utc": "2026-10-03T10:00:54.259711+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/.gitignore",
+      "bytes": 77,
+      "sha256": "65bb213c1b03db5aa0365f92de99483d6ba983d5b35311e149a025a8d1dd024e",
+      "modificacion_utc": "2026-10-02T22:10:59.071517+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Binaries/Win64/BrumaferalEditor.target",
+      "bytes": 944834,
+      "sha256": "46be53849ca9972b298c7b52dd463a8ebe0796b7ba39e79ecc12af7738f6ef0d",
+      "modificacion_utc": "2026-10-03T09:58:04.982933+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Binaries/Win64/UnrealEditor-Brumaferal.dll",
+      "bytes": 383488,
+      "sha256": "65114a82a1d5ddb7c1118e7bd55d1fe94fe70ef918407417db5b60ec6d985091",
+      "modificacion_utc": "2026-10-03T09:58:04.590609+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Binaries/Win64/UnrealEditor-Brumaferal.pdb",
+      "bytes": 64311296,
+      "sha256": "28f6c673cef9afae798c0dc45cf4c77b899eec016b8351c6812e696d91048734",
+      "modificacion_utc": "2026-10-03T09:58:04.593645+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Binaries/Win64/UnrealEditor.modules",
+      "bytes": 98,
+      "sha256": "d050ce0bf6d7951d9b2df96eabdcaaf6681c5aebfab7d981b35361572e033c1c",
+      "modificacion_utc": "2026-10-03T09:58:04.962996+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Brumaferal.uproject",
+      "bytes": 302,
+      "sha256": "b9dbab7078741bb1edf8d595e06bf64e6f0ff9ac590b43da3a27be6b8955f083",
+      "modificacion_utc": "2026-10-02T21:49:38.118885+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Config/DefaultEngine.ini",
+      "bytes": 946,
+      "sha256": "c0baabe41ac8cb4d322bb03c4e27542bd92f8ba5fb287f242315ee34460b72ff",
+      "modificacion_utc": "2026-10-02T22:03:26.419198+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Config/DefaultGame.ini",
+      "bytes": 124,
+      "sha256": "d028d9c5be8b5129338c6cd3f6f0284a96e010fdbf2592455fbc1923fbe499a3",
+      "modificacion_utc": "2026-10-02T21:49:40.097388+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Config/DefaultInput.ini",
+      "bytes": 876,
+      "sha256": "88c0b309a66bfe3b7ac92b73bf6fcc0e40c86c7e84817b17856c7d98ffacd28c",
+      "modificacion_utc": "2026-10-02T21:49:40.486747+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Content/Art/facet_noise.uasset",
+      "bytes": 11470,
+      "sha256": "498278e4b731e22d1ab09e76c5759b0f29d28d6a0c996a3cd890ee736b93c353",
+      "modificacion_utc": "2026-10-02T22:18:42.417519+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Content/Art/M_Facet.uasset",
+      "bytes": 8841,
+      "sha256": "790d5cf31741cb6ccc6754ea49c955f68314595850fcd6af0c8477e98b86bc83",
+      "modificacion_utc": "2026-10-03T09:58:34.000799+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Content/Art/M_Glow.uasset",
+      "bytes": 4817,
+      "sha256": "6cd92a10e99cba6f08bd723aa8edffe18f7d58d4bf93dee451bdd4ec1bde2913",
+      "modificacion_utc": "2026-10-03T09:58:34.062635+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/DESARROLLO.md",
+      "bytes": 1573,
+      "sha256": "b45adde016796806fdd20ce558ddea401d35f17839b7404c8c037f3a46c35aa6",
+      "modificacion_utc": "2026-10-02T22:19:20.088511+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/BuildRules/BrumaferalModuleRules.dll",
+      "bytes": 3072,
+      "sha256": "97c3743ef078464fa176813db783667f97deda010a139825561afac7eb8af7b2",
+      "modificacion_utc": "2026-10-02T22:00:39.067581+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/BuildRules/BrumaferalModuleRules.pdb",
+      "bytes": 3168,
+      "sha256": "d39de8ebae1e33ec4cc87478c37f5a7f0ef4eb4fa607bbd467f3f764dc5a13da",
+      "modificacion_utc": "2026-10-02T22:00:39.066526+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/BuildRules/BrumaferalModuleRulesManifest.json",
+      "bytes": 473,
+      "sha256": "b8a1ee40712a64ce7fee0ff33c88d7083772b0f46e4faa1728c28434ae5b0de6",
+      "modificacion_utc": "2026-10-02T22:00:39.092422+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/SourceFileCache.bin",
+      "bytes": 5437098,
+      "sha256": "a8db3899a8b06754e03ba4f57d1523bb51ae9d1e8596ca287ed8d6e418979583",
+      "modificacion_utc": "2026-10-03T09:58:05.147252+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/ActionHistory.bin",
+      "bytes": 661,
+      "sha256": "aca59f67eca0c0520161d1f8ef87a27072971e56bdeeac92b9d70e75b98ed372",
+      "modificacion_utc": "2026-10-03T09:57:57.189520+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/BrumaferalEditor/BrumaferalEditor.deps",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-02T22:16:47.641245+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/BrumaferalEditor/BrumaferalEditor.uhtmanifest",
+      "bytes": 2461937,
+      "sha256": "3e2f6c5fb78511774793e9fdb0ed7a0fd75072e13b20ff76e621f53b023584e5",
+      "modificacion_utc": "2026-10-02T22:16:46.340770+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/BrumaferalEditor/BrumaferalEditor.uhtpath",
+      "bytes": 91,
+      "sha256": "4a9241dbc6e0e26db3ca92234d27634d945def93d8509fca541b6efca633ae04",
+      "modificacion_utc": "2026-10-02T22:16:47.644308+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/BrumaferalEditor/BrumaferalEditor.uhtsettings",
+      "bytes": 13,
+      "sha256": "f56bf34de7bf79edecb55a93b29b04e4888949cb214ed360efbddab06c0b0e69",
+      "modificacion_utc": "2026-10-02T22:16:47.644308+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/BrumaferalEditor/BrumaferalEditor.uhttimestamps",
+      "bytes": 23840,
+      "sha256": "d17c7adc67b7909f1b234737ffe7e609f0e4cc1aecc4571183e88a3670ce738e",
+      "modificacion_utc": "2026-10-03T09:57:56.488609+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/UnrealEditor/Inc/Brumaferal/UHT/Brumaferal.init.gen.cpp",
+      "bytes": 1582,
+      "sha256": "5b60ef7bda9722896ec620e728c7c1dc611caa689d531073129cb910d096fde8",
+      "modificacion_utc": "2026-10-02T22:01:21.811131+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/UnrealEditor/Inc/Brumaferal/UHT/BrumaferalClasses.h",
+      "bytes": 353,
+      "sha256": "1270d67f056d111136d87fed9076cb3f77df8b680fe4464c38514e021940c54e",
+      "modificacion_utc": "2026-10-02T22:01:21.810616+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/UnrealEditor/Inc/Brumaferal/UHT/Grove.gen.cpp",
+      "bytes": 67612,
+      "sha256": "c84321961bfcfddba0998e5a5c72d806c7b2594192f6f454d241cb1a0ccf520e",
+      "modificacion_utc": "2026-10-02T22:01:21.807991+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/UnrealEditor/Inc/Brumaferal/UHT/Grove.generated.h",
+      "bytes": 18748,
+      "sha256": "bd446d003c274cbcec1bb23c0e55e47120fc498b1a6f4cc2ca29614a34b738e5",
+      "modificacion_utc": "2026-10-02T22:16:47.575444+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/ActionHistory.bin",
+      "bytes": 1075,
+      "sha256": "5b36bc682b2305fba770a8a711acb933a3b09e28c4b98e17080cb07f26c377aa",
+      "modificacion_utc": "2026-10-02T22:01:21.932442+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Core/SharedDefinitions.Core.Cpp20.h",
+      "bytes": 3985,
+      "sha256": "db670722571b6808fa8fd01e689bedb2592e21877845567787b8685e9f143add",
+      "modificacion_utc": "2026-10-02T22:00:51.405905+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Core/SharedPCH.Core.Cpp20.cpp",
+      "bytes": 114,
+      "sha256": "08b211f47510fe191d437bda34374c4bc79449b8b130993952ee0f0ee2da1acf",
+      "modificacion_utc": "2026-10-02T22:00:51.466571+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Core/SharedPCH.Core.Cpp20.h",
+      "bytes": 333,
+      "sha256": "39fbcce5e51a31d7c8f3d67c1a0f1884c5797ec8cc14357da8610db7398e7fad",
+      "modificacion_utc": "2026-10-02T22:00:51.408521+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Core/SharedPCH.Core.Cpp20.h.obj.rsp",
+      "bytes": 2215,
+      "sha256": "42951d25d2bbe0cd08758dfb18445f1020026a6364c4c8a1f73fbfbf3f15f384",
+      "modificacion_utc": "2026-10-02T22:00:51.474257+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedDefinitions.CoreUObject.Cpp20.h",
+      "bytes": 4271,
+      "sha256": "e04abc1ff05f9aa7bf7d217dc3e01d5a2f6736c0be2dbe5b0d8553ac66f7d52e",
+      "modificacion_utc": "2026-10-02T22:00:51.476276+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedDefinitions.CoreUObject.RTTI.Cpp20.h",
+      "bytes": 4276,
+      "sha256": "d8a23435019c6bfe848b9a36f3c2d2f3d73c8f3df840b677df9b3bd8783efa5c",
+      "modificacion_utc": "2026-10-02T22:00:51.485908+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp",
+      "bytes": 121,
+      "sha256": "e77dd76d844179bc3a8d02e146e6b82fb37b1402cce964259eea353b6bb6be56",
+      "modificacion_utc": "2026-10-02T22:00:51.480382+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h",
+      "bytes": 354,
+      "sha256": "adbf7e30fcc8aeda77b12c5e972ad41e79fbc1e789954a5e275aee6c4a9319bd",
+      "modificacion_utc": "2026-10-02T22:00:51.477983+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.obj.rsp",
+      "bytes": 2646,
+      "sha256": "10e2e91fe47abe437811e2f0136254ae37a7dab7703387c124444d69d23d29f6",
+      "modificacion_utc": "2026-10-02T22:00:51.480382+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp",
+      "bytes": 126,
+      "sha256": "f78609b2daba12eb73e37a8a28f032576a83246073d48a8ff4205594452bc84b",
+      "modificacion_utc": "2026-10-02T22:00:51.491142+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h",
+      "bytes": 359,
+      "sha256": "2531fb919a9e462f1a8907565941ce5e15e80a38d0e1c8396534fff9c60ae538",
+      "modificacion_utc": "2026-10-02T22:00:51.491142+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp",
+      "bytes": 2675,
+      "sha256": "05615622f12d274c7696dbd48163368e4d1d805d8ebe53ad769472a546637154",
+      "modificacion_utc": "2026-10-02T22:00:51.491142+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/DependencyCache.bin",
+      "bytes": 95450,
+      "sha256": "72e61f07f39cb37bff8a1e286a203f22760839399bec5aa7964d0c146dfe8110",
+      "modificacion_utc": "2026-10-02T22:02:52.088573+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.h",
+      "bytes": 20249,
+      "sha256": "099d33c361a88334049ddc8a38b000ccf30b9cbf0f00a44d7bc489177a8a90a6",
+      "modificacion_utc": "2026-10-02T22:00:51.493950+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedDefinitions.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 20385,
+      "sha256": "d6c6b5422e6c21b28159450cc7468f498defbe0022fbec8fd73ac92ff123303a",
+      "modificacion_utc": "2026-10-02T22:00:51.502660+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp",
+      "bytes": 116,
+      "sha256": "edaedbe32cd1565098f69171b11b400279230f93e6ee8a0626048c3415a1f95d",
+      "modificacion_utc": "2026-10-02T22:00:51.498347+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedPCH.Engine.Cpp20.h",
+      "bytes": 339,
+      "sha256": "e7c8787b1ccd31a7f0e77ee2dfddb74665a40245a58170c1ccf72658a095f638",
+      "modificacion_utc": "2026-10-02T22:00:51.494553+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.obj.rsp",
+      "bytes": 17549,
+      "sha256": "ec09a145b5757717eaccd36213aa9eab498bef2a9da4565497ae032fe1943e70",
+      "modificacion_utc": "2026-10-02T22:00:51.518697+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.cpp",
+      "bytes": 160,
+      "sha256": "967d950afe41d36288ebde18cb8897d55c38c8d7f436b9ea6b7de494ab6cbcf5",
+      "modificacion_utc": "2026-10-02T22:00:51.522329+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 383,
+      "sha256": "578ce8293a518981d0f412961b760d19e200d4f8d7af8f123d6587177162a624",
+      "modificacion_utc": "2026-10-02T22:00:51.519696+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj.rsp",
+      "bytes": 17813,
+      "sha256": "e7ec64e03cda0c9d705a4731798167979d4f4ac1b784271f170814222cf59eb4",
+      "modificacion_utc": "2026-10-02T22:00:51.522329+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Makefile.bin",
+      "bytes": 5529209,
+      "sha256": "d13c6cf680b5fa0f8b21b944b50ed4953e210d03b249751a5b624d49b7894a57",
+      "modificacion_utc": "2026-10-03T09:57:57.139317+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Slate/SharedDefinitions.Slate.Cpp20.h",
+      "bytes": 5213,
+      "sha256": "98544783e235656909be879cb8d312cbc4a948747f6d167527cc655642513251",
+      "modificacion_utc": "2026-10-02T22:00:51.491142+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp",
+      "bytes": 115,
+      "sha256": "bc4230227c94df8e93bd4aa366818b1c7b9662b6a983c26b94754f1ad0889868",
+      "modificacion_utc": "2026-10-02T22:00:51.495059+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Slate/SharedPCH.Slate.Cpp20.h",
+      "bytes": 336,
+      "sha256": "ec8c384028b3683d1a4d2eff0abb378fe0f53cf6b34bc737bb50b27dc685e86d",
+      "modificacion_utc": "2026-10-02T22:00:51.492894+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj.rsp",
+      "bytes": 3350,
+      "sha256": "69b4738292bc07299b75dae5cc19b878662e1736d5e619945d81399b76dcded3",
+      "modificacion_utc": "2026-10-02T22:00:51.495617+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/TargetMetadata.json",
+      "bytes": 1034420,
+      "sha256": "eb64ba035571b4cb641275df37663f73d5cc6035c08c697602307f338ddda97d",
+      "modificacion_utc": "2026-10-02T22:00:52.056198+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.h",
+      "bytes": 20251,
+      "sha256": "78ccc45b7722c308613e4284e8a57e26d918d632df98988a349bae188b727b52",
+      "modificacion_utc": "2026-10-02T22:00:51.523125+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 20387,
+      "sha256": "9298dcd5ca85d4101019e34dd544b159c5f138440ac020c69e68a207ecf4be74",
+      "modificacion_utc": "2026-10-02T22:00:51.582561+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.RTTI.Cpp20.h",
+      "bytes": 20256,
+      "sha256": "1c14dae410895cf002892edc00c3c254fdd9011e7c7c56f50604e1c8070eef0a",
+      "modificacion_utc": "2026-10-02T22:00:51.526155+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp",
+      "bytes": 118,
+      "sha256": "ed3a49de084066b5ae56e4182ddfc67be9aa4115f26fe1762aa4dbb63d25faf3",
+      "modificacion_utc": "2026-10-02T22:00:51.525151+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h",
+      "bytes": 345,
+      "sha256": "c750194059b78896e4c59e86421cfd230fa10274dd99707a4ebd15cdfe8351b8",
+      "modificacion_utc": "2026-10-02T22:00:51.523640+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj.rsp",
+      "bytes": 17571,
+      "sha256": "2a1f7c9898ffede38f9b64e85543269db0fdbf2638bfb470d09554c00aa773fc",
+      "modificacion_utc": "2026-10-02T22:00:51.526155+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.cpp",
+      "bytes": 162,
+      "sha256": "7bb3a4a34fa90b208d29dbdcb4e4827f4e992a376b91bee56839b7ab5dad709a",
+      "modificacion_utc": "2026-10-02T22:00:51.586990+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 389,
+      "sha256": "b395c2d4a4e3bdd141fd333afbb0652b9b47b54c7587f8146e4d8908ec323431",
+      "modificacion_utc": "2026-10-02T22:00:51.584074+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.dep.json",
+      "bytes": 306472,
+      "sha256": "703fccfc3fb87a162c3a0de959935adb0f6d9de852b6134225f05268ac9b4fe1",
+      "modificacion_utc": "2026-10-02T22:01:47.916284+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj",
+      "bytes": 74316567,
+      "sha256": "4c4de4bd0f883c2c3615663cd4d231c26e1ae74bdbfdddbe5198809497efc825",
+      "modificacion_utc": "2026-10-02T22:01:50.197416+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj.rsp",
+      "bytes": 17835,
+      "sha256": "1f25c67b1c5150aba21547eedc3771cf6d69a73a9cafd34d424849c7bb989a79",
+      "modificacion_utc": "2026-10-02T22:00:51.587991+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.pch",
+      "bytes": 2582708224,
+      "sha256": "8aba51ee2aff1f76f0da43ae28abcf268d2912266d7e576922000c02d2318dc1",
+      "modificacion_utc": "2026-10-02T22:01:46.995032+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.sarif",
+      "bytes": 52031,
+      "sha256": "5144d8353465d2cc853b3b082649881b31dfa44c76276209f42a207eded75488",
+      "modificacion_utc": "2026-10-02T22:01:48.676363+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp",
+      "bytes": 123,
+      "sha256": "fc63956c63e7f1c26d835a04f0f8e0be0ab7f4ee74135feeeac7cbf9a2b24a2f",
+      "modificacion_utc": "2026-10-02T22:00:51.548842+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h",
+      "bytes": 350,
+      "sha256": "b373a1103cc7f8619672a4a37fb6d974b2a21d490ee4231e4c3cc8e6302698e5",
+      "modificacion_utc": "2026-10-02T22:00:51.526155+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp",
+      "bytes": 17600,
+      "sha256": "c027a12b035e0a1c6d28069a0730860d830d13f73d6beb3de0529b3de7804f37",
+      "modificacion_utc": "2026-10-02T22:00:51.530820+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin",
+      "bytes": 3610,
+      "sha256": "fe69582badb1db1f03f02234900d6dd2e133d643a469fd12448ad5f725183073",
+      "modificacion_utc": "2026-10-02T22:01:21.932442+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Brumaferal.Shared.rsp",
+      "bytes": 16341,
+      "sha256": "3064c568a15030a643fb3a14197acbfc3c80f536397af125cdeb1c402c669d6d",
+      "modificacion_utc": "2026-10-02T22:00:51.597610+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Default.rc2.res",
+      "bytes": 24992,
+      "sha256": "7709d58186808996561530e8e3f448e03fbd89ff2d21488f63648f96190ac869",
+      "modificacion_utc": "2026-10-02T22:02:03.998836+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Default.rc2.res.rsp",
+      "bytes": 3234,
+      "sha256": "c865b910353042ecf581ba63e4e081d9e89d029ac27c0bbd7554296e9662045a",
+      "modificacion_utc": "2026-10-02T22:00:51.642609+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Definitions.Brumaferal.h",
+      "bytes": 1089,
+      "sha256": "423aa8352317c6eed0ca101b96fcfbe158087dda7a56c6394c532bf6540d6a34",
+      "modificacion_utc": "2026-10-02T22:00:51.589756+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Grove.cpp.dep.json",
+      "bytes": 12061,
+      "sha256": "61716f5678f1ce6fc71ae4e4451d2a81d0b946dd8a3bbbd93a32daeb11825ae6",
+      "modificacion_utc": "2026-10-03T09:58:02.556636+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Grove.cpp.obj",
+      "bytes": 2151166,
+      "sha256": "c840930caca3196b78a86c8dd384b04840dafa9deaaae1f19f8c19daf9ec4c00",
+      "modificacion_utc": "2026-10-03T09:58:03.693277+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Grove.cpp.obj.rsp",
+      "bytes": 1815,
+      "sha256": "870a60f5347945f6e691f39cb4d626e67525235106d1c977e6ccaeb2049ddfe1",
+      "modificacion_utc": "2026-10-02T22:00:51.634556+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Grove.cpp.sarif",
+      "bytes": 132262,
+      "sha256": "61afc9f8f0f7bcad2108e904070a9354da4762f6a1936e6b6ef72eb47f5b834c",
+      "modificacion_utc": "2026-10-03T09:58:02.745378+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveHero.cpp.dep.json",
+      "bytes": 10637,
+      "sha256": "1c8c03dc5b1727f33066de634938aa82a15c904e51561d2b0a45575229936a6f",
+      "modificacion_utc": "2026-10-03T09:58:02.555107+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveHero.cpp.obj",
+      "bytes": 1990651,
+      "sha256": "113557c9fb644ef8f18ab0b0a4b8176b35835416a67b74c194a93d9903005a92",
+      "modificacion_utc": "2026-10-03T09:58:03.464814+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveHero.cpp.obj.rsp",
+      "bytes": 1831,
+      "sha256": "faa32a18d273020cbd0735842622e05a1ee98dcaadc366bc46b6c49d85dc74f3",
+      "modificacion_utc": "2026-10-02T22:00:51.639384+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveHero.cpp.sarif",
+      "bytes": 85519,
+      "sha256": "c1308d26b11b16d8900ab1afb2f0d07ddb6ca8283cbf51d318a10b5c606f1978",
+      "modificacion_utc": "2026-10-03T09:58:02.722569+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveWorld.cpp.dep.json",
+      "bytes": 9401,
+      "sha256": "e96484a609ad4656c1416e9149e3beb086e47a50e4dc5f40acd31d0ac2e2abe3",
+      "modificacion_utc": "2026-10-03T09:58:02.542192+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveWorld.cpp.obj",
+      "bytes": 1561111,
+      "sha256": "bcf62e763a7776f232ceec4ee4a58c7de7fc4d361ed4909444de87242ce15fc7",
+      "modificacion_utc": "2026-10-03T09:58:03.436490+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveWorld.cpp.obj.rsp",
+      "bytes": 1835,
+      "sha256": "9bd5bcce4cf6492f38d1d066a205d473497b746a0fd0caab2c6dc944f890fbfa",
+      "modificacion_utc": "2026-10-02T22:00:51.640048+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveWorld.cpp.sarif",
+      "bytes": 121960,
+      "sha256": "70c759af7148d67a4e4286466d03fb5f32dc2ca04db3b4f6625eb0c2c6469417",
+      "modificacion_utc": "2026-10-03T09:58:02.722569+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/LiveCodingInfo.json",
+      "bytes": 136,
+      "sha256": "b5eb5c16368ba066148505c4cedcd6cff36dbe682aa67d3d46deba6c8d53aeff",
+      "modificacion_utc": "2026-10-02T22:00:51.641603+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Module.Brumaferal.gen.cpp",
+      "bytes": 471,
+      "sha256": "cd517345c2af11154ae8e110b8dbdc4ce1336d9540493657ec82d7dfc0c4dff0",
+      "modificacion_utc": "2026-10-02T22:00:51.614232+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Module.Brumaferal.gen.cpp.dep.json",
+      "bytes": 4721,
+      "sha256": "54a237999932a9855bba48b933dcd8669c56348cb2e3cc46ef7bcbcbb0307f10",
+      "modificacion_utc": "2026-10-02T22:16:57.007389+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Module.Brumaferal.gen.cpp.obj",
+      "bytes": 1145366,
+      "sha256": "9a206054607340799d97fef362fa657bd388b14a383586ce362b7f9212dee39f",
+      "modificacion_utc": "2026-10-02T22:16:57.358116+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Module.Brumaferal.gen.cpp.obj.rsp",
+      "bytes": 1926,
+      "sha256": "67daed116b768ceaad65d89ed90e12b1938690f3e16320c29ddbaea612d3c38e",
+      "modificacion_utc": "2026-10-02T22:00:51.616782+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Module.Brumaferal.gen.cpp.sarif",
+      "bytes": 2173,
+      "sha256": "32ac7607ce459eafed741dcc397012be2ad3d18f6f244b0e26c9c8291a87fd20",
+      "modificacion_utc": "2026-10-02T22:16:57.146995+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp",
+      "bytes": 301,
+      "sha256": "23d538867742c8ee05f9af47c5f98a172e00203b7865f83af22e5e93b10ce4c8",
+      "modificacion_utc": "2026-10-02T22:00:51.588990+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.dep.json",
+      "bytes": 996,
+      "sha256": "5fe87997a3f7fae0d05e5232dad086073fd133d2fb9c9963ae64fb7eb93ede20",
+      "modificacion_utc": "2026-10-02T22:02:03.692999+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.obj",
+      "bytes": 529131,
+      "sha256": "1e21eeea93010ebd7d65c931bd00b73fd8de58d13311ea283c24a5d3a3116e7b",
+      "modificacion_utc": "2026-10-02T22:02:03.931332+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.obj.rsp",
+      "bytes": 1918,
+      "sha256": "f132a43d0a952ff359d0792f3f962ad56fba6ddc213943152e63944dec820524",
+      "modificacion_utc": "2026-10-02T22:00:51.640048+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.sarif",
+      "bytes": 572,
+      "sha256": "82fa5f5e0e126cfbc7227f1ad9b23a4a6cb22136e9ed3895cf7a161496f0f9db",
+      "modificacion_utc": "2026-10-02T22:02:03.796076+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/UnrealEditor-Brumaferal.dll.rsp",
+      "bytes": 3543,
+      "sha256": "c8271c9aa37bd889828a34d1ad80de26cf93b7dfedb5209e5fa880f3efc3f223",
+      "modificacion_utc": "2026-10-02T22:00:51.704085+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/UnrealEditor-Brumaferal.exp",
+      "bytes": 2972,
+      "sha256": "525bac91e139b4d79ed3ed48082556e2887ddf1c33f3e25cf2376bf90c298ba2",
+      "modificacion_utc": "2026-10-03T09:58:03.789159+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/UnrealEditor-Brumaferal.lib",
+      "bytes": 5568,
+      "sha256": "101b8a7c2b94da6468497f68102b991b6f6165268ece1e2ef8bc403884d269af",
+      "modificacion_utc": "2026-10-03T09:58:03.789159+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/UnrealEditor-Brumaferal.lib.rsp",
+      "bytes": 1502,
+      "sha256": "5974732e2bef1bbfe765ea1ea20c89b5ab12e861574a42da3080250908e0e03d",
+      "modificacion_utc": "2026-10-02T22:00:51.679948+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/DependencyCache.bin",
+      "bytes": 8103,
+      "sha256": "2203d3ea883c63de726c83e993a33491e80606fd415365285893503dd2b9d8f3",
+      "modificacion_utc": "2026-10-03T09:58:05.150286+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/FileHashCache.bin",
+      "bytes": 749,
+      "sha256": "1d99cb882085cecfaa9fddd101b7e702474909156e72a9f9791ca443b0f3b615",
+      "modificacion_utc": "2026-10-02T22:00:52.410810+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/Build/XmlConfigCache.bin",
+      "bytes": 346,
+      "sha256": "60915d36251bf202bc2953c084da202fe77e8eb54c52194935a32631d73d0223",
+      "modificacion_utc": "2026-10-02T22:00:36.501408+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/PipInstall/extra_urls.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-09T01:00:34.761701+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/PipInstall/Lib/site-packages/plugin_site_package.pth",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-09T01:00:34.761701+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/PipInstall/merged_requirements.in",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-09T01:00:34.761701+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/PipInstall/pyreqs_plugins.list",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-09T01:00:34.757543+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush",
+      "bytes": 18555,
+      "sha256": "fb2d41c40228977ba82276b097ecdd2e64019f2fac24467a8ab0ae0f68b72f53",
+      "modificacion_utc": "2026-10-02T22:03:23.726576+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush",
+      "bytes": 18654,
+      "sha256": "bb2be5496ae74e3993568da581baa92e33bd4538bde729859f99ce7966bab2c9",
+      "modificacion_utc": "2026-10-02T22:03:18.058354+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Intermediate/TargetInfo.json",
+      "bytes": 244,
+      "sha256": "4d4e46ca7fba016b81022fc6daaef70ef7d41a71d6d8071751cc3c473b450285",
+      "modificacion_utc": "2026-10-02T22:04:33.220831+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Jugar.cmd",
+      "bytes": 188,
+      "sha256": "c1fe39de7617fb7acd0f4ab6b3eeadd71519364ae609e08a68031fd0ce2997ea",
+      "modificacion_utc": "2026-10-02T21:59:54.486030+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/LEEME.md",
+      "bytes": 1528,
+      "sha256": "fc2ff99a686f66d51242c0ab97def5bd51e769d445ff594212bb173d95d47189",
+      "modificacion_utc": "2026-10-02T22:10:58.645015+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Config/CrashReportClient/UECC-Windows-A941B4144706B4D8CD6B98BF74793865/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-09T01:00:27.097450+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Config/WindowsEditor/Editor.ini",
+      "bytes": 95,
+      "sha256": "0f6e5f6ee35d1d08016aa73927d665b380165b85189cb086957465d6a40923c6",
+      "modificacion_utc": "2026-10-02T22:03:27.344944+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini",
+      "bytes": 70586,
+      "sha256": "e72183448319a5e4901c55c1ce4f8cd97c8323e2bcb6f159a77108365ee29ce4",
+      "modificacion_utc": "2026-10-03T10:07:52.257659+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Config/WindowsEditor/GameUserSettings.ini",
+      "bytes": 1378,
+      "sha256": "e94436186a228ae87396de67e28526cddffb03888e6d05ce173c6a47368f0b76",
+      "modificacion_utc": "2026-10-02T22:10:43.281405+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Logs/AutoSDKInfo-backup-2026.10.02-22.03.11.json",
+      "bytes": 12559,
+      "sha256": "a5ba9d876230b597c39b0857a8da2597962d07be5247f2e9890933aa33e7118f",
+      "modificacion_utc": "2026-10-03T10:01:11.943538+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Logs/AutoSDKInfo-backup-2026.10.02-22.03.11.txt",
+      "bytes": 4138,
+      "sha256": "5edcc9fa8f8d427d99ca2051394aa0a6e9277437d9cb30bba78d41baf8233f24",
+      "modificacion_utc": "2026-10-03T10:01:11.943538+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Logs/AutoSDKInfo.json",
+      "bytes": 12559,
+      "sha256": "827639f280801fb0a6c4e2f7aaa01a95585b357315af4e50ca5334e1cdb3d31c",
+      "modificacion_utc": "2026-10-09T01:00:28.932511+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Logs/AutoSDKInfo.txt",
+      "bytes": 4138,
+      "sha256": "8fe46c01a0f8709b9cf44c97203bba22df269b5ab96813b27c8a3159ec88febd",
+      "modificacion_utc": "2026-10-09T01:00:28.932511+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Logs/Brumaferal.log",
+      "bytes": 205375,
+      "sha256": "47561b7e9dc8dc3628640cce1efad3650d47a4d97925407e691b43dab46097ec",
+      "modificacion_utc": "2026-10-09T01:02:13.987946+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Screenshots/Combat.png",
+      "bytes": 1812725,
+      "sha256": "8b1fcd11ad23eeff0613d1ee23d66548c9215faf52bf72ea149b14ebdeb778cb",
+      "modificacion_utc": "2026-10-03T09:59:34.977575+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/Screenshots/Forest.png",
+      "bytes": 1794330,
+      "sha256": "ab01d7899d12f84feb040dfa8d672bd4890acb6d995ccbdcb5e2ebe991e943a7",
+      "modificacion_utc": "2026-10-03T09:59:26.227418+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/ShaderDebugInfo/PCD3D_SM5/WorldGridMaterial_5ce289b550f5e49a/Default/DDCKey-Editor.txt",
+      "bytes": 24006,
+      "sha256": "a8b93c0fe96ba6c76ba95f9d74d6b422e5ac8a5727d796b817f7e31eefb25706",
+      "modificacion_utc": "2026-10-09T01:00:32.982798+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/SourceControl/UncontrolledChangelists.json",
+      "bytes": 574,
+      "sha256": "1527d58c6e200c74233803d71ef658b48399b2f5e412bb7da1d0fa567530de7d",
+      "modificacion_utc": "2026-10-02T22:18:42.817775+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Saved/UnrealBuildTool/BuildConfiguration.xml",
+      "bytes": 132,
+      "sha256": "1e7cd8512dedf37d7b103c5592f5600433e7fe97da23434e69990f8a3370508a",
+      "modificacion_utc": "2026-10-02T22:00:36.450260+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/Brumaferal/Brumaferal.Build.cs",
+      "bytes": 304,
+      "sha256": "d489d19b0ec9e5140436c8697e7f4d5cff7fbf529c2af406878d3e2e7bd99521",
+      "modificacion_utc": "2026-10-02T21:49:39.301677+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/Brumaferal/Facet.h",
+      "bytes": 2424,
+      "sha256": "5a9b0eb00d6fc08810cd4057792348357910f47436afc4a6bbefa21c5e7ba0a5",
+      "modificacion_utc": "2026-10-03T09:57:15.805660+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/Brumaferal/Grove.cpp",
+      "bytes": 16532,
+      "sha256": "b0a9223c7a9250972720ffdfc046ce96bd891216251fb64504370b4a0f53e1f9",
+      "modificacion_utc": "2026-10-02T22:19:19.662552+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/Brumaferal/Grove.h",
+      "bytes": 4341,
+      "sha256": "7d357681d18efa7b32b98b6468c0a1e32e902c2d60a30bfb7e59d5669eaff2e6",
+      "modificacion_utc": "2026-10-02T22:16:41.524484+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/Brumaferal/GroveHero.cpp",
+      "bytes": 10985,
+      "sha256": "74a3994f719f21d5260658f977ede395a1a619f79c03ec9f72fff62ac182a217",
+      "modificacion_utc": "2026-10-02T22:15:25.784432+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/Brumaferal/GroveWorld.cpp",
+      "bytes": 8161,
+      "sha256": "5670422516262eef90e10dbc290ae7bb2e1302e78cc1fc407e8fffff5cc1c5a8",
+      "modificacion_utc": "2026-10-02T22:15:26.680572+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/Brumaferal.Target.cs",
+      "bytes": 245,
+      "sha256": "5daca9eeefbd5daa820d7c4de36700c4eae82f5218d25c868439cae0eb0ede23",
+      "modificacion_utc": "2026-10-02T21:49:38.525003+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Source/BrumaferalEditor.Target.cs",
+      "bytes": 259,
+      "sha256": "e311b69edb691e238aca7a209a335d280d7a0649b511319182c1b550cfd8bef7",
+      "modificacion_utc": "2026-10-02T21:49:38.920009+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/audit-backup-2026.10.02-22.04.12.log",
+      "bytes": 182291,
+      "sha256": "e4597b3dd142df2ea3f3e60474abed2744fe4663d60cc4e990098486c0eacbb1",
+      "modificacion_utc": "2026-10-02T22:04:12+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/audit-backup-2026.10.02-22.17.31.log",
+      "bytes": 182614,
+      "sha256": "03f6232b56d3d807f53bb74fce5566d485ddaf204d9868659d25042b725d731c",
+      "modificacion_utc": "2026-10-02T22:17:31+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/audit-console.log",
+      "bytes": 1270,
+      "sha256": "87c4df489f45653d4664d06b0664e39b5ae7beaa6087c8efe66046b7bce6b221",
+      "modificacion_utc": "2026-10-03T10:00:33.416917+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/audit.log",
+      "bytes": 182655,
+      "sha256": "0de3da1d37331bfa055930672ed5c016bb8d8d3b8ed35de36aeb8352de736fa8",
+      "modificacion_utc": "2026-10-03T10:00:46.759552+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/build.log",
+      "bytes": 120541,
+      "sha256": "57bf0e89fd5a5a7db014297f921c652c7fc4669cd497c42887c596c2278351d5",
+      "modificacion_utc": "2026-10-03T09:58:05.156377+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/facet_noise.png",
+      "bytes": 621,
+      "sha256": "f211ab381947a2700c7fa880e742af4dfd058b5660431b2804211eae870eac2d",
+      "modificacion_utc": "2026-10-03T09:58:33.946023+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/materials-backup-2026.10.02-22.03.27.log",
+      "bytes": 227642,
+      "sha256": "145a9df95e3053dec89c4761fec7a319521813e533c6cfa718ac56c4a3014b37",
+      "modificacion_utc": "2026-10-02T22:03:27+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/materials-console.log",
+      "bytes": 18859,
+      "sha256": "1163d8a4ef5a82811da4520a543cdffa24dfa8a23d227418e217f65dfd6b8360",
+      "modificacion_utc": "2026-10-03T09:58:34.332271+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/materials.log",
+      "bytes": 226748,
+      "sha256": "128236ce3da8c81600d3802ac899a48931ee649da1ecf84e43b547adabd4d3ab",
+      "modificacion_utc": "2026-10-02T22:08:48.603322+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/materials.py",
+      "bytes": 4182,
+      "sha256": "72c1a01cc29b987c7b62fc8519ffeb54112c7257cf5e9105b0e225964705293e",
+      "modificacion_utc": "2026-10-03T09:58:23.157969+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/visual-audit-backup-2026.10.02-22.10.43.log",
+      "bytes": 194945,
+      "sha256": "3a19cd75620b019eb7460054bcd3f46d02e2b6e850710040f8fc704ec0522e7f",
+      "modificacion_utc": "2026-10-02T22:10:43+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/visual-audit-backup-2026.10.02-22.14.30.log",
+      "bytes": 195240,
+      "sha256": "561b1441eb249f18b0e7ac5ef6ca44479e638f56d65d0045570b9f5f5741fea0",
+      "modificacion_utc": "2026-10-02T22:14:30+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/visual-audit-backup-2026.10.02-22.20.22.log",
+      "bytes": 194135,
+      "sha256": "3098f41faf822975c09654df577f82b5e95c285e88ef48408a1f2f3d9eb09855",
+      "modificacion_utc": "2026-10-02T22:20:22+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/Tools/visual-audit.log",
+      "bytes": 193342,
+      "sha256": "a7b811538fd976337f0a6215c39f3f031c56f6412e74f45983dad7491039b663",
+      "modificacion_utc": "2026-10-03T09:59:41.645773+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Brumaferal/VALIDACION.md",
+      "bytes": 2290,
+      "sha256": "0f6351a1d7b9b364d28ec7b57690dfce0d87886cd3a6489328ab6ce9028c8a79",
+      "modificacion_utc": "2026-10-03T10:00:26.706609+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/.gitignore",
+      "bytes": 65,
+      "sha256": "ed7354eee9fdff4be242ec1760134b47bf878ec5a9551dac0aa853846b9e0bcd",
+      "modificacion_utc": "2026-10-02T10:54:44.372116+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Binaries/Win64/RiftboundEditor.target",
+      "bytes": 944829,
+      "sha256": "efabecf5fe0f16a7160e38fbb8925888251a6f32549b717e9d3d2f7c77b87d8e",
+      "modificacion_utc": "2026-10-02T11:18:30.305216+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Binaries/Win64/UnrealEditor-Riftbound.dll",
+      "bytes": 327680,
+      "sha256": "1c6269825f12ad4942047bb2b128ac6f37ca1c8bac7a564b742902f6d9638c59",
+      "modificacion_utc": "2026-10-02T11:18:29.942858+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Binaries/Win64/UnrealEditor-Riftbound.pdb",
+      "bytes": 64000000,
+      "sha256": "a8fbbd4980f93e036cbeb534a0851e363eeaeacdcef42557ad1890d6effc94e5",
+      "modificacion_utc": "2026-10-02T11:18:29.945371+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Binaries/Win64/UnrealEditor.modules",
+      "bytes": 96,
+      "sha256": "2e7786159b4b8e7ad97b266b48534329bfd6c5d091a321900d41672344d16b96",
+      "modificacion_utc": "2026-10-02T11:18:30.287541+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Config/DefaultEngine.ini",
+      "bytes": 536,
+      "sha256": "7a7e930d609fa5fb0c3f0990f038b4dec83aa28dfd261601491294ade6742cf6",
+      "modificacion_utc": "2026-10-02T10:50:15.673417+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Config/DefaultGame.ini",
+      "bytes": 227,
+      "sha256": "4b8706ec1237204e94447cb530f18beed65aa1596d5bb04b615004d1201b347f",
+      "modificacion_utc": "2026-10-02T10:50:16.052190+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Config/DefaultInput.ini",
+      "bytes": 977,
+      "sha256": "e82688ca82e2e16fb3f0943dfe704b70e6fc35db306c953f183a4f839edb4277",
+      "modificacion_utc": "2026-10-02T10:50:16.423706+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/CrearPartida.cmd",
+      "bytes": 175,
+      "sha256": "e71417fd1bd810bbef2288205faab848e3249e6e3a620eeb1bf7b5131e7d47e3",
+      "modificacion_utc": "2026-10-02T11:20:59.237360+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/BuildRules/RiftboundModuleRules.dll",
+      "bytes": 3072,
+      "sha256": "5d5f618cb2818e1b9ebf45c7ee3bc5fa7a0c8265271c32aaa1d865abdd9ffa59",
+      "modificacion_utc": "2026-10-02T11:13:35.831166+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/BuildRules/RiftboundModuleRules.pdb",
+      "bytes": 3160,
+      "sha256": "0105f6e09b1254b3fa203514ecf6cdc837dad9ae1f7f578c898f770b608ca3a9",
+      "modificacion_utc": "2026-10-02T11:13:35.831166+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/BuildRules/RiftboundModuleRulesManifest.json",
+      "bytes": 466,
+      "sha256": "a608e98583a35efa66c67490a9af94269ac9c576f25e9e29941ae1ca699d0b5e",
+      "modificacion_utc": "2026-10-02T11:13:35.851043+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/SourceFileCache.bin",
+      "bytes": 5436930,
+      "sha256": "24929ef21cfb6b7b7cb14f7b7cb42fe665d5c91747d618640f5d73719449fda4",
+      "modificacion_utc": "2026-10-02T11:18:30.446462+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/ActionHistory.bin",
+      "bytes": 654,
+      "sha256": "9f78532dbc87fe076ba73ec0063cc2cada3cecc40c3006048d6220ebf61df3a8",
+      "modificacion_utc": "2026-10-02T11:13:49.593346+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/RiftboundEditor/RiftboundEditor.deps",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-02T11:18:26.334945+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/RiftboundEditor/RiftboundEditor.uhtmanifest",
+      "bytes": 2461910,
+      "sha256": "caff3a53e89dfe9039e10217948cd3b6f2b4966c24f0960c30045adab76a3ee9",
+      "modificacion_utc": "2026-10-02T11:18:25.074247+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/RiftboundEditor/RiftboundEditor.uhtpath",
+      "bytes": 91,
+      "sha256": "4a9241dbc6e0e26db3ca92234d27634d945def93d8509fca541b6efca633ae04",
+      "modificacion_utc": "2026-10-02T11:18:26.337957+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/RiftboundEditor/RiftboundEditor.uhtsettings",
+      "bytes": 13,
+      "sha256": "f56bf34de7bf79edecb55a93b29b04e4888949cb214ed360efbddab06c0b0e69",
+      "modificacion_utc": "2026-10-02T11:18:26.339455+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/RiftboundEditor/RiftboundEditor.uhttimestamps",
+      "bytes": 23839,
+      "sha256": "26aee703b10c650ee7bfe97a9efbb7a4d07e5ba47487dd7a72aa7964f1127b38",
+      "modificacion_utc": "2026-10-02T11:18:26.351506+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/UnrealEditor/Inc/Riftbound/UHT/Riftbound.gen.cpp",
+      "bytes": 62102,
+      "sha256": "06e87d2d17ddc0e6af023329ae9de6ecc99b8c1ea7147ef6ccaf9df7dfb4d05c",
+      "modificacion_utc": "2026-10-02T11:13:49.508991+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/UnrealEditor/Inc/Riftbound/UHT/Riftbound.generated.h",
+      "bytes": 16544,
+      "sha256": "bf4a625debb90a6c17cbe834943a55d8a935c14da7e16304c4ef7a03c0c90e2e",
+      "modificacion_utc": "2026-10-02T11:18:26.309217+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/UnrealEditor/Inc/Riftbound/UHT/Riftbound.init.gen.cpp",
+      "bytes": 1571,
+      "sha256": "409a2356d3ac13acaf85e6cb63011b99c65af923986bcbbc327c7de84ca27bfc",
+      "modificacion_utc": "2026-10-02T11:13:49.519823+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/UnrealEditor/Inc/Riftbound/UHT/RiftboundClasses.h",
+      "bytes": 353,
+      "sha256": "1270d67f056d111136d87fed9076cb3f77df8b680fe4464c38514e021940c54e",
+      "modificacion_utc": "2026-10-02T11:13:49.516819+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/ActionHistory.bin",
+      "bytes": 1067,
+      "sha256": "9f213b77cb2faceef6d3ee92aab820ede47a67e2e9568b0f7eaa2e94288f45d4",
+      "modificacion_utc": "2026-10-02T11:13:49.593346+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Core/SharedDefinitions.Core.Cpp20.h",
+      "bytes": 3985,
+      "sha256": "db670722571b6808fa8fd01e689bedb2592e21877845567787b8685e9f143add",
+      "modificacion_utc": "2026-10-02T11:13:48.216756+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Core/SharedPCH.Core.Cpp20.cpp",
+      "bytes": 114,
+      "sha256": "c4e3718bd746238668be5b608b171797e466812fe70f7eb5c15d3b096b0bfd13",
+      "modificacion_utc": "2026-10-02T11:13:48.297906+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Core/SharedPCH.Core.Cpp20.h",
+      "bytes": 333,
+      "sha256": "39fbcce5e51a31d7c8f3d67c1a0f1884c5797ec8cc14357da8610db7398e7fad",
+      "modificacion_utc": "2026-10-02T11:13:48.217259+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Core/SharedPCH.Core.Cpp20.h.obj.rsp",
+      "bytes": 2205,
+      "sha256": "14fea87e52a04dbdac5fd08ef61f7def3c56c1a10cd245c25f6bf4e0bf9c4f7e",
+      "modificacion_utc": "2026-10-02T11:13:48.304602+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedDefinitions.CoreUObject.Cpp20.h",
+      "bytes": 4271,
+      "sha256": "e04abc1ff05f9aa7bf7d217dc3e01d5a2f6736c0be2dbe5b0d8553ac66f7d52e",
+      "modificacion_utc": "2026-10-02T11:13:48.306641+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedDefinitions.CoreUObject.RTTI.Cpp20.h",
+      "bytes": 4276,
+      "sha256": "d8a23435019c6bfe848b9a36f3c2d2f3d73c8f3df840b677df9b3bd8783efa5c",
+      "modificacion_utc": "2026-10-02T11:13:48.308691+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp",
+      "bytes": 121,
+      "sha256": "67e54e1de1407cacc0c62646bc1bdd7b0e1321ca44e284d61f7043602804be63",
+      "modificacion_utc": "2026-10-02T11:13:48.308165+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h",
+      "bytes": 354,
+      "sha256": "adbf7e30fcc8aeda77b12c5e972ad41e79fbc1e789954a5e275aee6c4a9319bd",
+      "modificacion_utc": "2026-10-02T11:13:48.306641+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.obj.rsp",
+      "bytes": 2636,
+      "sha256": "861063f77baacb23921e0add6bc7a084a083e6e51f37ad87f95a46385452ad54",
+      "modificacion_utc": "2026-10-02T11:13:48.308691+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp",
+      "bytes": 126,
+      "sha256": "7719857b206d26d8f6a2912eb4221f45e982337f5d31b55a0dee6cbd892270f6",
+      "modificacion_utc": "2026-10-02T11:13:48.309200+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h",
+      "bytes": 359,
+      "sha256": "2531fb919a9e462f1a8907565941ce5e15e80a38d0e1c8396534fff9c60ae538",
+      "modificacion_utc": "2026-10-02T11:13:48.309200+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp",
+      "bytes": 2665,
+      "sha256": "3b8e5bc1aadda5f66f4477cee2b91bca1e9862c3acced7c4ebcbd3ac1a2795a3",
+      "modificacion_utc": "2026-10-02T11:13:48.309200+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/DependencyCache.bin",
+      "bytes": 95446,
+      "sha256": "457d7e8c7bed2f918a2570247572aad75ba4a4e4bb9e27de1aad72ebc1ee4c2c",
+      "modificacion_utc": "2026-10-02T11:16:19.114183+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.h",
+      "bytes": 20249,
+      "sha256": "099d33c361a88334049ddc8a38b000ccf30b9cbf0f00a44d7bc489177a8a90a6",
+      "modificacion_utc": "2026-10-02T11:13:48.312909+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedDefinitions.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 20385,
+      "sha256": "d6c6b5422e6c21b28159450cc7468f498defbe0022fbec8fd73ac92ff123303a",
+      "modificacion_utc": "2026-10-02T11:13:48.315421+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp",
+      "bytes": 116,
+      "sha256": "926958205ff304ec870717ef67b3fcaf9c4a1b410480fe262a6c81432dcf7cd6",
+      "modificacion_utc": "2026-10-02T11:13:48.317933+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedPCH.Engine.Cpp20.h",
+      "bytes": 339,
+      "sha256": "e7c8787b1ccd31a7f0e77ee2dfddb74665a40245a58170c1ccf72658a095f638",
+      "modificacion_utc": "2026-10-02T11:13:48.313913+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.obj.rsp",
+      "bytes": 17539,
+      "sha256": "2b4694eba249868074d90bc0fb04d02fb3ba0bbe9de1574828ca8b166dd68364",
+      "modificacion_utc": "2026-10-02T11:13:48.319437+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.cpp",
+      "bytes": 160,
+      "sha256": "6bdbca95d41356dee3281f1ac411deff115daed80953f31b3d885f4dee01c02f",
+      "modificacion_utc": "2026-10-02T11:13:48.325329+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 383,
+      "sha256": "578ce8293a518981d0f412961b760d19e200d4f8d7af8f123d6587177162a624",
+      "modificacion_utc": "2026-10-02T11:13:48.317933+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj.rsp",
+      "bytes": 17803,
+      "sha256": "5f1500c0105f8f5e115d5a0964a4ec13c23faceddb5fe57ac0e2ad86b2ce29fd",
+      "modificacion_utc": "2026-10-02T11:13:48.326846+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Makefile.bin",
+      "bytes": 5525648,
+      "sha256": "f8f2ab85d1f53e323b669710e19b29455d13d4ef6212bcd677e3c519252dc4bc",
+      "modificacion_utc": "2026-10-02T11:13:48.988523+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Slate/SharedDefinitions.Slate.Cpp20.h",
+      "bytes": 5213,
+      "sha256": "98544783e235656909be879cb8d312cbc4a948747f6d167527cc655642513251",
+      "modificacion_utc": "2026-10-02T11:13:48.309200+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp",
+      "bytes": 115,
+      "sha256": "1c55a81567f6fa5f8815d151f7596025a1f125791c05be2403975821d4f3ee7a",
+      "modificacion_utc": "2026-10-02T11:13:48.310719+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Slate/SharedPCH.Slate.Cpp20.h",
+      "bytes": 336,
+      "sha256": "ec8c384028b3683d1a4d2eff0abb378fe0f53cf6b34bc737bb50b27dc685e86d",
+      "modificacion_utc": "2026-10-02T11:13:48.309200+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj.rsp",
+      "bytes": 3340,
+      "sha256": "3ec93424c629c1b0abbd8eea5ab8128de93b94513432ab6815ecc762a2a20bc5",
+      "modificacion_utc": "2026-10-02T11:13:48.310719+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/TargetMetadata.json",
+      "bytes": 1034402,
+      "sha256": "90a2ca26f6d04412a2d51926e7b3ca40bab2231aadd16045d93a5d5eade2c4ec",
+      "modificacion_utc": "2026-10-02T11:13:48.892717+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.h",
+      "bytes": 20251,
+      "sha256": "78ccc45b7722c308613e4284e8a57e26d918d632df98988a349bae188b727b52",
+      "modificacion_utc": "2026-10-02T11:13:48.324825+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 20387,
+      "sha256": "9298dcd5ca85d4101019e34dd544b159c5f138440ac020c69e68a207ecf4be74",
+      "modificacion_utc": "2026-10-02T11:13:48.411177+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.RTTI.Cpp20.h",
+      "bytes": 20256,
+      "sha256": "1c14dae410895cf002892edc00c3c254fdd9011e7c7c56f50604e1c8070eef0a",
+      "modificacion_utc": "2026-10-02T11:13:48.333520+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp",
+      "bytes": 118,
+      "sha256": "9cc6cb5ac4d006351eccf1465de4fe69ee4b2f540aa10a9c98061c09ad0518d3",
+      "modificacion_utc": "2026-10-02T11:13:48.330547+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h",
+      "bytes": 345,
+      "sha256": "c750194059b78896e4c59e86421cfd230fa10274dd99707a4ebd15cdfe8351b8",
+      "modificacion_utc": "2026-10-02T11:13:48.325329+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj.rsp",
+      "bytes": 17561,
+      "sha256": "c3f23ba4f9396026d97bef49d50c36d18f1c20448a1be27d078653ae676e6e04",
+      "modificacion_utc": "2026-10-02T11:13:48.330547+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.cpp",
+      "bytes": 162,
+      "sha256": "bfdc7995af9eba7c6d2c785b87154fc72840d65020f7da20f170f69df6bae3dd",
+      "modificacion_utc": "2026-10-02T11:13:48.415891+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h",
+      "bytes": 389,
+      "sha256": "b395c2d4a4e3bdd141fd333afbb0652b9b47b54c7587f8146e4d8908ec323431",
+      "modificacion_utc": "2026-10-02T11:13:48.412683+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.dep.json",
+      "bytes": 306466,
+      "sha256": "43556080aa4246bf775eb6fe0eba9be76400e1a3ce1aab6598b0791e1e633be3",
+      "modificacion_utc": "2026-10-02T11:14:41.698625+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj",
+      "bytes": 74316545,
+      "sha256": "f73b310d0c61767ec78ee14ecf29fce8e0c417c137cc8ab9a21db7da55a96d57",
+      "modificacion_utc": "2026-10-02T11:14:44.000349+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj.rsp",
+      "bytes": 17825,
+      "sha256": "562588352d3fc6965b2b9a6b8ffd69b659868bd8b2ec2a5f8b05cb42824e9d0b",
+      "modificacion_utc": "2026-10-02T11:13:48.417897+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.pch",
+      "bytes": 2582708224,
+      "sha256": "b5d717ff108b31f43d41e52d4725fc0561da4fdea6062d68ca8006072be5879e",
+      "modificacion_utc": "2026-10-02T11:14:40.802548+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.sarif",
+      "bytes": 51973,
+      "sha256": "9b066b6062e41119fac070fc186da63f080220a0f998dfb04d12a51ec677d2a1",
+      "modificacion_utc": "2026-10-02T11:14:42.417861+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp",
+      "bytes": 123,
+      "sha256": "c65195b4b9341069ab19cda52e61bfd1f7a7dc4115f00ceafe3d50db085b78b2",
+      "modificacion_utc": "2026-10-02T11:13:48.349708+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h",
+      "bytes": 350,
+      "sha256": "b373a1103cc7f8619672a4a37fb6d974b2a21d490ee4231e4c3cc8e6302698e5",
+      "modificacion_utc": "2026-10-02T11:13:48.334525+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp",
+      "bytes": 17590,
+      "sha256": "11e0119df1a96faec8290ff84918920114b1ea3fce5e7f42084881aed1ea81e5",
+      "modificacion_utc": "2026-10-02T11:13:48.350839+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin",
+      "bytes": 2343,
+      "sha256": "7348579d490765f88373f6db0ecb39b42f5b3dc4a5c78d768e35c417fad60746",
+      "modificacion_utc": "2026-10-02T11:13:49.593346+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/DependencyCache.bin",
+      "bytes": 2587,
+      "sha256": "08ca89c51f85a9884bda40d57141994648dbaffb04afc05b0f0e64409de9ded4",
+      "modificacion_utc": "2026-10-02T11:18:30.451017+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/FileHashCache.bin",
+      "bytes": 650,
+      "sha256": "e3bc5f7fba87eddafa61f0bcd4c5de1691fb191b697f80ea6f7422d291718831",
+      "modificacion_utc": "2026-10-02T11:14:47.944525+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Default.rc2.res",
+      "bytes": 24980,
+      "sha256": "eb001f0fc10468540452b170534a6f166f6d53f9c70d1933e1567eecba34a6dc",
+      "modificacion_utc": "2026-10-02T11:14:16.030993+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Default.rc2.res.rsp",
+      "bytes": 3229,
+      "sha256": "00f90f96454ef7cf64db1d6294a0bee266c18de57596896444ce77f4f8eb6da5",
+      "modificacion_utc": "2026-10-02T11:13:48.472796+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Definitions.Riftbound.h",
+      "bytes": 971,
+      "sha256": "d6f9cece6ceeb601c246533c6bc16e0bd44274591eda19c587324f3961fc5fc6",
+      "modificacion_utc": "2026-10-02T11:13:48.419897+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/LiveCodingInfo.json",
+      "bytes": 138,
+      "sha256": "7bdc9c8361bfbfba945b243327bd42397ed22f2f4347cf3c516a53423db0b1f3",
+      "modificacion_utc": "2026-10-02T11:13:48.449986+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Module.Riftbound.gen.cpp",
+      "bytes": 470,
+      "sha256": "3f701f43d5c4e54f888e1966bb6dbb139a35f94eb385af5f6290f6156ced1d33",
+      "modificacion_utc": "2026-10-02T11:13:48.445041+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Module.Riftbound.gen.cpp.dep.json",
+      "bytes": 4983,
+      "sha256": "477a8bd6cf04930f69eda405467f4f55d52a2d76033d922d54f7b674eee092a5",
+      "modificacion_utc": "2026-10-02T11:18:28.179051+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Module.Riftbound.gen.cpp.obj",
+      "bytes": 1149651,
+      "sha256": "6d73160f0edf413a98e3039937724eb058d1ba3abfff38a99ccfec880793db0e",
+      "modificacion_utc": "2026-10-02T11:18:28.507389+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Module.Riftbound.gen.cpp.obj.rsp",
+      "bytes": 1902,
+      "sha256": "843d5b9cfe476b79900b72f1215b36b360c0997412b10661eabd333e0aa893a7",
+      "modificacion_utc": "2026-10-02T11:13:48.446551+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Module.Riftbound.gen.cpp.sarif",
+      "bytes": 2170,
+      "sha256": "56f5a8118b950578803423a42d6b023bec54b2407947681d40caca87afc7a383",
+      "modificacion_utc": "2026-10-02T11:18:28.302636+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/PerModuleInline.gen.cpp",
+      "bytes": 301,
+      "sha256": "23d538867742c8ee05f9af47c5f98a172e00203b7865f83af22e5e93b10ce4c8",
+      "modificacion_utc": "2026-10-02T11:13:48.417897+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/PerModuleInline.gen.cpp.dep.json",
+      "bytes": 989,
+      "sha256": "110c00c98eefbf3b84108b716fb543074562bb8e7abee99bfdc60009dfe8ab46",
+      "modificacion_utc": "2026-10-02T11:14:47.230418+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/PerModuleInline.gen.cpp.obj",
+      "bytes": 528701,
+      "sha256": "5feb7423f53bd7f6d10f059adf4858b7e4dec284efd1f8cbba88b96010bcda24",
+      "modificacion_utc": "2026-10-02T11:14:47.486401+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/PerModuleInline.gen.cpp.obj.rsp",
+      "bytes": 1898,
+      "sha256": "e515e457bbac7c00e39e30ec71a3b4191332db83ff9364efcccd9f2c6963ed0a",
+      "modificacion_utc": "2026-10-02T11:13:48.449986+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/PerModuleInline.gen.cpp.sarif",
+      "bytes": 572,
+      "sha256": "82fa5f5e0e126cfbc7227f1ad9b23a4a6cb22136e9ed3895cf7a161496f0f9db",
+      "modificacion_utc": "2026-10-02T11:14:47.343760+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Riftbound.cpp.dep.json",
+      "bytes": 13976,
+      "sha256": "81cc257bb2485d1c380e675ada976362f4011dde6ab2f724c0ba12ae1ec820e3",
+      "modificacion_utc": "2026-10-02T11:18:28.671338+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Riftbound.cpp.obj",
+      "bytes": 2323967,
+      "sha256": "7d99b9828650020e33b2e1f53683519a0462c22124aa52ce4b809228a2347ba8",
+      "modificacion_utc": "2026-10-02T11:18:29.329458+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Riftbound.cpp.obj.rsp",
+      "bytes": 1811,
+      "sha256": "ecb167e503bdf5bf8fb084cdfaf1d9bdc3ddfb697c79b8a0891cd754fe0f81c8",
+      "modificacion_utc": "2026-10-02T11:13:48.448981+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Riftbound.cpp.sarif",
+      "bytes": 55847,
+      "sha256": "6500ec39abeded1a044493f9253e017fcf34260b86c1ff32b7a78c55c1c819c3",
+      "modificacion_utc": "2026-10-02T11:18:28.823386+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Riftbound.Shared.rsp",
+      "bytes": 16074,
+      "sha256": "805cf9649ac54618e64731921409a10b317706125e8aa05df430e20a58497a35",
+      "modificacion_utc": "2026-10-02T11:13:48.421897+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/UnrealEditor-Riftbound.dll.rsp",
+      "bytes": 3103,
+      "sha256": "43b9a2e17085124bdc18a993d3d925c9bc78c675d4c26973c8de182e90ae34ec",
+      "modificacion_utc": "2026-10-02T11:13:48.542920+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/UnrealEditor-Riftbound.exp",
+      "bytes": 2995,
+      "sha256": "4525f6174079e84afb49229d0b083a5e9fb1b3fa8ac49f06d6d0ed9d9b838c72",
+      "modificacion_utc": "2026-10-02T11:18:29.387694+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/UnrealEditor-Riftbound.lib",
+      "bytes": 5594,
+      "sha256": "12093e7ab6e6be100f8cd01ae0dcdd5ec102539caf8e2bab18c30ae4cd7dca7e",
+      "modificacion_utc": "2026-10-02T11:18:29.387694+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/UnrealEditor-Riftbound.lib.rsp",
+      "bytes": 1136,
+      "sha256": "e50a4c3a8cb287a232e3320d48caf712bd211144a661f0129cff1165a8262ee4",
+      "modificacion_utc": "2026-10-02T11:13:48.529768+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/Build/XmlConfigCache.bin",
+      "bytes": 345,
+      "sha256": "b81b88fa80f0ed9bd84369cb880ee7c282e4d32c4af53b010830761cd114a546",
+      "modificacion_utc": "2026-10-02T11:13:32.749970+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/PipInstall/extra_urls.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-02T16:15:54.530740+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/PipInstall/Lib/site-packages/plugin_site_package.pth",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-02T16:15:54.529710+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/PipInstall/merged_requirements.in",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-02T16:15:54.530228+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/PipInstall/pyreqs_plugins.list",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modificacion_utc": "2026-10-02T16:15:54.526161+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush",
+      "bytes": 18555,
+      "sha256": "fb2d41c40228977ba82276b097ecdd2e64019f2fac24467a8ab0ae0f68b72f53",
+      "modificacion_utc": "2026-10-02T11:16:52.869098+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush",
+      "bytes": 18654,
+      "sha256": "bb2be5496ae74e3993568da581baa92e33bd4538bde729859f99ce7966bab2c9",
+      "modificacion_utc": "2026-10-02T11:16:45.901049+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Intermediate/TargetInfo.json",
+      "bytes": 240,
+      "sha256": "28c9ee4d28a2866fe377721efe6b19b1758b630f61ded9a33a4f652d33170e37",
+      "modificacion_utc": "2026-10-02T11:25:31.754987+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/JugarSolo.cmd",
+      "bytes": 168,
+      "sha256": "cf5189b56dd04e7513439ff80d0e1dd48c372918e220dde68e65b110720705c1",
+      "modificacion_utc": "2026-10-02T11:20:58.852375+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Launch.ps1",
+      "bytes": 678,
+      "sha256": "e958371d308752e64178c5aac9ff59869dc59ca04939171a0451c0b2240ed44c",
+      "modificacion_utc": "2026-10-02T11:14:29.906417+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/README.md",
+      "bytes": 2883,
+      "sha256": "0fbffeedb0836670c8cb45593b714851305cd9584e39d99f5843d5947ee7c58e",
+      "modificacion_utc": "2026-10-02T11:21:00.001267+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/REFERENCIAS-MEGABONK.md",
+      "bytes": 6134,
+      "sha256": "2a4e3450b41a3a44d3b1be73c22e03c6bb3b70e2e1c0be06009620cefbce15fa",
+      "modificacion_utc": "2026-10-02T11:40:27.326887+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Riftbound.uproject",
+      "bytes": 240,
+      "sha256": "90865835d7112a1c2008b6e80ea2f4d6d5abe085e747a7179901816c22251d3c",
+      "modificacion_utc": "2026-10-02T10:50:11.841374+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-02BC616D4C4D1251E615E2AD9ABE731B/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:19:33.074422+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-0B71F2D04E5CEB4823C464974BE489B3/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:19:31.987760+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-214C25FB41B24DFAA233939E42C013FB/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T16:15:39.194605+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-28CE2D6048FC09452474D2912DC7636E/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:19:21.383433+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-2A71AE1046BBBDDADE414FA2DF05DCBA/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:16:39.540521+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-318C19334E3498CD1F8643B8C96EA9DE/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:19:30.758432+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-C3FBFF914DA73B3B76CDA2AFF123C137/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T16:14:37.659621+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-CC2B608C48FC99D08792A39175CF6D83/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:19:29.724618+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-D8AE06E746CB3B8E075F1EAC9E562437/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:25:30.917965+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-FEAE0CC24A03BD27F2E77D8A18F97BAF/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "modificacion_utc": "2026-10-02T11:19:28.692967+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/WindowsEditor/Editor.ini",
+      "bytes": 95,
+      "sha256": "0f6e5f6ee35d1d08016aa73927d665b380165b85189cb086957465d6a40923c6",
+      "modificacion_utc": "2026-10-02T11:17:13.908283+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini",
+      "bytes": 46300,
+      "sha256": "574ed10c9bd17d2a793468b0274ffeca4c291f70ae9d94f7af3ddeb3cd415a58",
+      "modificacion_utc": "2026-10-02T11:28:37.801008+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Config/WindowsEditor/GameUserSettings.ini",
+      "bytes": 1378,
+      "sha256": "25034567f71ecec90a640fa803a6bb0292ec483021905251ec22f55c8b4aa91b",
+      "modificacion_utc": "2026-10-02T11:28:37.801008+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.41.json",
+      "bytes": 12559,
+      "sha256": "78f1390d2ad5e646fa78b1dde19529afc0cf2a2e3827bf997184bdfd285d7ddc",
+      "modificacion_utc": "2026-10-02T11:19:34.664454+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.41.txt",
+      "bytes": 4138,
+      "sha256": "bd95365bde446cacd0a52c8421a434981b4f141a6fcf5b3680d7a4182dd0324f",
+      "modificacion_utc": "2026-10-02T11:19:34.662922+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.42.json",
+      "bytes": 12559,
+      "sha256": "3dd24064267de009c5775b8fbb2869ff96780e21916f11388609d75f4489c3f1",
+      "modificacion_utc": "2026-10-02T11:25:33.610073+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.42.txt",
+      "bytes": 4138,
+      "sha256": "7e381fc667e7ca8f46487f87ccd81edefbd1246379f23f392f9080fb125ff9d7",
+      "modificacion_utc": "2026-10-02T11:25:33.610073+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.43.json",
+      "bytes": 12559,
+      "sha256": "e4832b4ae4d76b8953d5a4a008168c581c691d9fb815f41e605aad52559beac8",
+      "modificacion_utc": "2026-10-02T11:19:29.873969+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.43.txt",
+      "bytes": 4138,
+      "sha256": "6f742cf010c6b45a8138f47737a882bd395f0dcea7142b9f13c7a3894828d559",
+      "modificacion_utc": "2026-10-02T11:19:29.873969+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.44.json",
+      "bytes": 12559,
+      "sha256": "397b1fc38b3856a1914b4d82838ab1afb2bee9669c65e6e84fb5aafddb990145",
+      "modificacion_utc": "2026-10-02T11:19:30.969679+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.44.txt",
+      "bytes": 4138,
+      "sha256": "ebacb46d8561eb50c57e4046e8a6322aaccabaa762facacf1d9195e2e8015435",
+      "modificacion_utc": "2026-10-02T11:19:30.969679+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.45.json",
+      "bytes": 12559,
+      "sha256": "ad0de168b3b319a57c3baf145d5dea8d29d9778fab64d1a04c8a855ec940b9d5",
+      "modificacion_utc": "2026-10-02T11:19:32.217112+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.45.txt",
+      "bytes": 4138,
+      "sha256": "4a44d9b905d45ccd9f9658e34f86c408b2b4f8c3bc820a954288c1d85673cec4",
+      "modificacion_utc": "2026-10-02T11:19:32.217112+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.46.json",
+      "bytes": 12559,
+      "sha256": "12d2814ce8c7f714f4e6cba192732b4710ac6206de1bb346cc97ed39c5033b0c",
+      "modificacion_utc": "2026-10-02T11:19:33.526083+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo-backup-2026.10.02-11.16.46.txt",
+      "bytes": 4138,
+      "sha256": "daef790134d9008e4d1bb434f979603070a25d45c61907dcebb037111fc6dde1",
+      "modificacion_utc": "2026-10-02T11:19:33.526083+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo.json",
+      "bytes": 12559,
+      "sha256": "fb7686e5ffe84919a88fad6c8fb332035f5e4d61c3807460f2148ebb7b44d333",
+      "modificacion_utc": "2026-10-02T16:15:41.560087+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/AutoSDKInfo.txt",
+      "bytes": 4138,
+      "sha256": "93916fbcac564efb1c05ab83da23eb5bc7e4981dda3790b2bc44431abad68044",
+      "modificacion_utc": "2026-10-02T16:15:41.560087+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/NetworkClient1.log",
+      "bytes": 211893,
+      "sha256": "e8e360edc9e24d2da4db47c39066a5f0c1ba44fbeed988b7bc8d4dbdc9081805",
+      "modificacion_utc": "2026-10-02T11:19:48.135706+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/NetworkClient2.log",
+      "bytes": 209411,
+      "sha256": "4646ca7c5fbeef10f3f3cf1ed273d0750865e27a2fd63acc32a6618fe978bdf4",
+      "modificacion_utc": "2026-10-02T11:19:48.096981+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/NetworkClient3.log",
+      "bytes": 207394,
+      "sha256": "af5e4c0c2fbd117267a3aaa689c632dbef32fd57b6ef01b86e742e0a66ba539a",
+      "modificacion_utc": "2026-10-02T11:19:48.175222+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/NetworkClient4.log",
+      "bytes": 202312,
+      "sha256": "69975e8444875a2d762ae4d6f3697c49a566be47141a545ef2dda19a051686fa",
+      "modificacion_utc": "2026-10-02T11:19:48.135706+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/NetworkClient5.log",
+      "bytes": 201675,
+      "sha256": "bb1dac72bf08148d790b3be0411b0f14dcba8659805adb1721aafa42b857ff94",
+      "modificacion_utc": "2026-10-02T11:19:48.222495+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/NetworkHost.log",
+      "bytes": 203263,
+      "sha256": "baa2dfe5e70dab8c56da63ad5cb42a2ced0bac25d1655ee2139f71e88661aa06",
+      "modificacion_utc": "2026-10-02T11:19:49.365762+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/Riftbound-backup-2026.10.02-11.28.37.log",
+      "bytes": 207467,
+      "sha256": "865785831a644f4792152e50356767bc142b82c1a1da1f3a4eadbc74ac0346f8",
+      "modificacion_utc": "2026-10-02T11:28:37+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/Riftbound.log",
+      "bytes": 99801,
+      "sha256": "143adcd0ef3f24992b4f5ee10d2493cc177b4d5632d943d79b7ffed61a0b60b6",
+      "modificacion_utc": "2026-10-02T16:15:04.169436+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/Riftbound_2.log",
+      "bytes": 205589,
+      "sha256": "7e5c5816f5666fef2d18764425931c80942307c6e79221bebdd697ebcc97d1c4",
+      "modificacion_utc": "2026-10-02T16:20:07.378275+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/Logs/Smoke.log",
+      "bytes": 184328,
+      "sha256": "51d0f780429823ee7b1dfab0dabef6222254946d015c790b8c0d8129f86c63b2",
+      "modificacion_utc": "2026-10-02T11:17:13.922156+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/SaveGames/RiftboundProfile.sav",
+      "bytes": 2062,
+      "sha256": "c4fabadf3da56da2de9734ccd6d1ba94b7999dd03946bd8c2ca0a8c9917bd4d7",
+      "modificacion_utc": "2026-10-02T16:19:53.225257+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/ShaderDebugInfo/PCD3D_SM5/WorldGridMaterial_5ce289b550f5e49a/Default/DDCKey-Editor.txt",
+      "bytes": 24005,
+      "sha256": "53c992009f2ff956e349c7e2a5bd5c7b45e19fe6e6a614c0d7552d7ad9d5c233",
+      "modificacion_utc": "2026-10-02T16:15:51.558988+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Saved/UnrealBuildTool/BuildConfiguration.xml",
+      "bytes": 132,
+      "sha256": "1e7cd8512dedf37d7b103c5592f5600433e7fe97da23434e69990f8a3370508a",
+      "modificacion_utc": "2026-10-02T11:13:32.685662+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Source/Riftbound/Riftbound.Build.cs",
+      "bytes": 305,
+      "sha256": "d127dd1caf79a372a344692a1ce835729d78f2e6d858e31ab9d7081c23827ee1",
+      "modificacion_utc": "2026-10-02T10:50:14.515857+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Source/Riftbound/Riftbound.cpp",
+      "bytes": 20473,
+      "sha256": "525fcfb313f7d9935297ca9cb311ace20a7d0edba89609b40c69b17ae1cb3a4b",
+      "modificacion_utc": "2026-10-02T11:18:12.987541+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Source/Riftbound/Riftbound.h",
+      "bytes": 4144,
+      "sha256": "88c9d158259cd9852b5904b132d77f89b57e11b71400b562c2bd39ad0ede097b",
+      "modificacion_utc": "2026-10-02T11:18:12.582828+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Source/Riftbound.Target.cs",
+      "bytes": 274,
+      "sha256": "e311c8a4a7a28c34be1daa89e1bcefab5167f5469928a2aaf5ddcf3a2019ed84",
+      "modificacion_utc": "2026-10-02T10:50:13.001739+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Source/RiftboundEditor.Target.cs",
+      "bytes": 288,
+      "sha256": "96cdce7e3f26faeec72238e866047170a31a74caa3753e9e58368a3b5e994fc9",
+      "modificacion_utc": "2026-10-02T10:50:13.381616+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/Test-Network.ps1",
+      "bytes": 2317,
+      "sha256": "eaf9b4c88141590511213b4f3b16cb813434b533bed0919450e233e97258d419",
+      "modificacion_utc": "2026-10-02T11:19:14.995288+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Riftbound/VALIDACION.md",
+      "bytes": 2167,
+      "sha256": "741178e785a37603e77bbe15dddecb2a1a8558d9a36ca71714dcbb0193cd5def",
+      "modificacion_utc": "2026-10-02T11:20:59.618395+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "AGENTS.md",
+      "bytes": 398,
+      "sha256": "0b69af5c69526889049694d2abb7d3fcec07502645ee1128ba78be8c5723e8ac",
+      "modificacion_utc": "2026-10-09T00:58:41.882514+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/contexto/01a0fc33-ca5e-7973-9ccc-2707906632d2.json",
+      "bytes": 683920,
+      "sha256": "0bb0a5a45c183baee4d660f2c495079051fc70a49adaaf66801189063347a7fc",
+      "modificacion_utc": "2026-10-09T01:06:40.904331+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/contexto/01a11e2b-61c0-7852-84fb-9095a28e0bba.json",
+      "bytes": 109899,
+      "sha256": "3f1e3d68247bc005d49604c0e50f24e4ecb98aec912578b5b3a883beb6ee773a",
+      "modificacion_utc": "2026-10-09T01:06:42.320637+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/contexto/6abf85fc-3710-83e8-9851-a6ea516c71ba.json",
+      "bytes": 14301,
+      "sha256": "86bd56b27bec886020b1ef6ba8b4d4bf5c44eda46a5f8f8678febd7e0e0c8f3a",
+      "modificacion_utc": "2026-10-09T01:06:42.034609+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/contexto/adjuntos/Prompt_original_Brumaferal.txt",
+      "bytes": 13460,
+      "sha256": "cca5899e3a6db257af1a6f71bf797ab01835ba4879a77a305d2aeef2ff88022f",
+      "modificacion_utc": "2026-10-02T21:47:33.696890+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/CONTEXTO_CONVERSACIONES.md",
+      "bytes": 76768,
+      "sha256": "255a282db5f6be43e2feeb909d30d23676599e53e404f9a3b45c23eeecac2e61",
+      "modificacion_utc": "2026-10-09T01:10:20.404271+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/DOCUMENTACION_ORIGINAL.md",
+      "bytes": 17043,
+      "sha256": "6ddbe64b3edc7be9b16bb09f66c45598c690c79053aa140f5e9159a8758da3dd",
+      "modificacion_utc": "2026-10-09T01:10:20.585861+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/ESTADO_COMPLETO.md",
+      "bytes": 22863,
+      "sha256": "7e3ac13ad30fe29694b4ccb1a5794564ab18cf3304b4cceab6fcfdf97320860a",
+      "modificacion_utc": "2026-10-09T01:09:38.336191+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/FUENTES_Y_CONFIGURACION.md",
+      "bytes": 83668,
+      "sha256": "651c77fa59644bab2d5c41dbcdbc780f205f636d3cb801a08c9f62d322b72ad7",
+      "modificacion_utc": "2026-10-09T01:10:20.586375+00:00",
+      "cambio_durante_lectura": false
+    },
+    {
+      "ruta": "Documentacion/preparar_exportacion.py",
+      "bytes": 6582,
+      "sha256": "65233b12a9528633c258fefa2b388a78c52c81959108967850d283cbe87fc386",
+      "modificacion_utc": "2026-10-09T01:10:19.302706+00:00",
+      "cambio_durante_lectura": false
+    }
+  ],
+  "carpetas": [
+    "Brumaferal/",
+    "Brumaferal/.git/",
+    "Brumaferal/.git/hooks/",
+    "Brumaferal/.git/info/",
+    "Brumaferal/.git/logs/",
+    "Brumaferal/.git/logs/refs/",
+    "Brumaferal/.git/logs/refs/heads/",
+    "Brumaferal/.git/objects/",
+    "Brumaferal/.git/objects/1b/",
+    "Brumaferal/.git/objects/1d/",
+    "Brumaferal/.git/objects/22/",
+    "Brumaferal/.git/objects/23/",
+    "Brumaferal/.git/objects/34/",
+    "Brumaferal/.git/objects/39/",
+    "Brumaferal/.git/objects/3f/",
+    "Brumaferal/.git/objects/43/",
+    "Brumaferal/.git/objects/46/",
+    "Brumaferal/.git/objects/4a/",
+    "Brumaferal/.git/objects/4d/",
+    "Brumaferal/.git/objects/59/",
+    "Brumaferal/.git/objects/62/",
+    "Brumaferal/.git/objects/63/",
+    "Brumaferal/.git/objects/76/",
+    "Brumaferal/.git/objects/9b/",
+    "Brumaferal/.git/objects/9d/",
+    "Brumaferal/.git/objects/a2/",
+    "Brumaferal/.git/objects/b1/",
+    "Brumaferal/.git/objects/b9/",
+    "Brumaferal/.git/objects/ec/",
+    "Brumaferal/.git/objects/f6/",
+    "Brumaferal/.git/objects/f7/",
+    "Brumaferal/.git/objects/f9/",
+    "Brumaferal/.git/objects/info/",
+    "Brumaferal/.git/objects/pack/",
+    "Brumaferal/.git/refs/",
+    "Brumaferal/.git/refs/heads/",
+    "Brumaferal/.git/refs/tags/",
+    "Brumaferal/Binaries/",
+    "Brumaferal/Binaries/Win64/",
+    "Brumaferal/Config/",
+    "Brumaferal/Content/",
+    "Brumaferal/Content/Art/",
+    "Brumaferal/Content/Collections/",
+    "Brumaferal/Content/Developers/",
+    "Brumaferal/Content/Developers/ricchdavid/",
+    "Brumaferal/Content/Developers/ricchdavid/Collections/",
+    "Brumaferal/DerivedDataCache/",
+    "Brumaferal/DerivedDataCache/VT/",
+    "Brumaferal/Intermediate/",
+    "Brumaferal/Intermediate/Build/",
+    "Brumaferal/Intermediate/Build/BuildRules/",
+    "Brumaferal/Intermediate/Build/Win64/",
+    "Brumaferal/Intermediate/Build/Win64/BrumaferalEditor/",
+    "Brumaferal/Intermediate/Build/Win64/UnrealEditor/",
+    "Brumaferal/Intermediate/Build/Win64/UnrealEditor/Inc/",
+    "Brumaferal/Intermediate/Build/Win64/UnrealEditor/Inc/Brumaferal/",
+    "Brumaferal/Intermediate/Build/Win64/UnrealEditor/Inc/Brumaferal/UHT/",
+    "Brumaferal/Intermediate/Build/Win64/x64/",
+    "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/",
+    "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/",
+    "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Core/",
+    "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/CoreUObject/",
+    "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Engine/",
+    "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/Slate/",
+    "Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/",
+    "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/",
+    "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/",
+    "Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/",
+    "Brumaferal/Intermediate/PipInstall/",
+    "Brumaferal/Intermediate/PipInstall/Lib/",
+    "Brumaferal/Intermediate/PipInstall/Lib/site-packages/",
+    "Brumaferal/Intermediate/Sandboxes/",
+    "Brumaferal/Intermediate/ShaderAutogen/",
+    "Brumaferal/Intermediate/ShaderAutogen/PCD3D_SM5/",
+    "Brumaferal/Intermediate/ShaderAutogen/PCD3D_SM6/",
+    "Brumaferal/Saved/",
+    "Brumaferal/Saved/Collections/",
+    "Brumaferal/Saved/Config/",
+    "Brumaferal/Saved/Config/CrashReportClient/",
+    "Brumaferal/Saved/Config/CrashReportClient/UECC-Windows-A941B4144706B4D8CD6B98BF74793865/",
+    "Brumaferal/Saved/Config/WindowsEditor/",
+    "Brumaferal/Saved/Logs/",
+    "Brumaferal/Saved/Screenshots/",
+    "Brumaferal/Saved/ShaderDebugInfo/",
+    "Brumaferal/Saved/ShaderDebugInfo/PCD3D_SM5/",
+    "Brumaferal/Saved/ShaderDebugInfo/PCD3D_SM5/WorldGridMaterial_5ce289b550f5e49a/",
+    "Brumaferal/Saved/ShaderDebugInfo/PCD3D_SM5/WorldGridMaterial_5ce289b550f5e49a/Default/",
+    "Brumaferal/Saved/SourceControl/",
+    "Brumaferal/Saved/UnrealBuildTool/",
+    "Brumaferal/Source/",
+    "Brumaferal/Source/Brumaferal/",
+    "Brumaferal/Tools/",
+    "Riftbound/",
+    "Riftbound/Binaries/",
+    "Riftbound/Binaries/Win64/",
+    "Riftbound/Config/",
+    "Riftbound/Content/",
+    "Riftbound/Content/Collections/",
+    "Riftbound/Content/Developers/",
+    "Riftbound/Content/Developers/ricchdavid/",
+    "Riftbound/Content/Developers/ricchdavid/Collections/",
+    "Riftbound/DerivedDataCache/",
+    "Riftbound/DerivedDataCache/VT/",
+    "Riftbound/Intermediate/",
+    "Riftbound/Intermediate/Build/",
+    "Riftbound/Intermediate/Build/BuildRules/",
+    "Riftbound/Intermediate/Build/Win64/",
+    "Riftbound/Intermediate/Build/Win64/RiftboundEditor/",
+    "Riftbound/Intermediate/Build/Win64/UnrealEditor/",
+    "Riftbound/Intermediate/Build/Win64/UnrealEditor/Inc/",
+    "Riftbound/Intermediate/Build/Win64/UnrealEditor/Inc/Riftbound/",
+    "Riftbound/Intermediate/Build/Win64/UnrealEditor/Inc/Riftbound/UHT/",
+    "Riftbound/Intermediate/Build/Win64/x64/",
+    "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/",
+    "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/",
+    "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Core/",
+    "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/CoreUObject/",
+    "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Engine/",
+    "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/Slate/",
+    "Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/",
+    "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/",
+    "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/",
+    "Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/",
+    "Riftbound/Intermediate/PipInstall/",
+    "Riftbound/Intermediate/PipInstall/Lib/",
+    "Riftbound/Intermediate/PipInstall/Lib/site-packages/",
+    "Riftbound/Intermediate/Sandboxes/",
+    "Riftbound/Intermediate/ShaderAutogen/",
+    "Riftbound/Intermediate/ShaderAutogen/PCD3D_SM5/",
+    "Riftbound/Intermediate/ShaderAutogen/PCD3D_SM6/",
+    "Riftbound/Saved/",
+    "Riftbound/Saved/Collections/",
+    "Riftbound/Saved/Config/",
+    "Riftbound/Saved/Config/CrashReportClient/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-02BC616D4C4D1251E615E2AD9ABE731B/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-0B71F2D04E5CEB4823C464974BE489B3/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-214C25FB41B24DFAA233939E42C013FB/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-28CE2D6048FC09452474D2912DC7636E/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-2A71AE1046BBBDDADE414FA2DF05DCBA/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-318C19334E3498CD1F8643B8C96EA9DE/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-C3FBFF914DA73B3B76CDA2AFF123C137/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-CC2B608C48FC99D08792A39175CF6D83/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-D8AE06E746CB3B8E075F1EAC9E562437/",
+    "Riftbound/Saved/Config/CrashReportClient/UECC-Windows-FEAE0CC24A03BD27F2E77D8A18F97BAF/",
+    "Riftbound/Saved/Config/WindowsEditor/",
+    "Riftbound/Saved/Logs/",
+    "Riftbound/Saved/SaveGames/",
+    "Riftbound/Saved/ShaderDebugInfo/",
+    "Riftbound/Saved/ShaderDebugInfo/PCD3D_SM5/",
+    "Riftbound/Saved/ShaderDebugInfo/PCD3D_SM5/WorldGridMaterial_5ce289b550f5e49a/",
+    "Riftbound/Saved/ShaderDebugInfo/PCD3D_SM5/WorldGridMaterial_5ce289b550f5e49a/Default/",
+    "Riftbound/Saved/UnrealBuildTool/",
+    "Riftbound/Source/",
+    "Riftbound/Source/Riftbound/",
+    "sources/"
+  ],
+  "nota": "SHA-256 de bytes archivados. Los registros de una aplicación abierta pueden cambiar durante la captura.",
+  "captura_fin_utc": "2026-10-09T01:11:35.487564+00:00"
+}
