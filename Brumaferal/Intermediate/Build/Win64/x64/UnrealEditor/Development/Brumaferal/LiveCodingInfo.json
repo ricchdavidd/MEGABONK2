@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Brumaferal.gen.cpp.obj": [
+			"Brumaferal.init.gen.cpp.obj",
+			"Grove.gen.cpp.obj"
+		]
+	}
+}

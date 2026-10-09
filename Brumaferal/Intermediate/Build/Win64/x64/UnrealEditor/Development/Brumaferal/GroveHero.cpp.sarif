@@ -1,0 +1,1569 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files/Epic Games/UE_5.8/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h"
+                                },
+                                "region": {
+                                    "startLine": 798,
+                                    "startColumn": 31,
+                                    "snippet": {
+                                        "text": "\tvirtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 17,
+                                    "startColumn": 190,
+                                    "snippet": {
+                                        "text": " auto* Move=GetCharacterMovement();Move->MaxWalkSpeed=760;Move->MaxAcceleration=5400;Move->BrakingDecelerationWalking=4200;Move->GroundFriction=7;Move->JumpZVelocity=820;Move->GravityScale=1.9;Move->AirControl=.8;Move->RotationRate=FRotator(0,900,0);Move->bOrientRotationToMovement=true;Move->MaxStepHeight=48;Move->SetWalkableFloorAngle(48);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 17,
+                                    "startColumn": 211,
+                                    "snippet": {
+                                        "text": " auto* Move=GetCharacterMovement();Move->MaxWalkSpeed=760;Move->MaxAcceleration=5400;Move->BrakingDecelerationWalking=4200;Move->GroundFriction=7;Move->JumpZVelocity=820;Move->GravityScale=1.9;Move->AirControl=.8;Move->RotationRate=FRotator(0,900,0);Move->bOrientRotationToMovement=true;Move->MaxStepHeight=48;Move->SetWalkableFloorAngle(48);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 27,
+                                    "startColumn": 57,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(0,0,-35),34,24,66,FLinearColor(.035,.31,.29),6);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 27,
+                                    "startColumn": 53,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(0,0,-35),34,24,66,FLinearColor(.035,.31,.29),6);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 27,
+                                    "startColumn": 48,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(0,0,-35),34,24,66,FLinearColor(.035,.31,.29),6);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 28,
+                                    "startColumn": 90,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,-28,27),FVector(-36,-43,-48),FVector(-42,0,-36),FLinearColor(.025,.18,.21));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 28,
+                                    "startColumn": 86,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,-28,27),FVector(-36,-43,-48),FVector(-42,0,-36),FLinearColor(.025,.18,.21));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 28,
+                                    "startColumn": 81,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,-28,27),FVector(-36,-43,-48),FVector(-42,0,-36),FLinearColor(.025,.18,.21));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 29,
+                                    "startColumn": 87,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,-28,27),FVector(-42,0,-36),FVector(-25,28,27),FLinearColor(.04,.26,.27));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 29,
+                                    "startColumn": 83,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,-28,27),FVector(-42,0,-36),FVector(-25,28,27),FLinearColor(.04,.26,.27));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 29,
+                                    "startColumn": 79,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,-28,27),FVector(-42,0,-36),FVector(-25,28,27),FLinearColor(.04,.26,.27));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 88,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,28,27),FVector(-42,0,-36),FVector(-36,43,-48),FLinearColor(.035,.21,.24));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 84,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,28,27),FVector(-42,0,-36),FVector(-36,43,-48),FLinearColor(.035,.21,.24));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 79,
+                                    "snippet": {
+                                        "text": " F.Tri(FVector(-25,28,27),FVector(-42,0,-36),FVector(-36,43,-48),FLinearColor(.035,.21,.24));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 31,
+                                    "startColumn": 56,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(0,0,27),23,19,37,FLinearColor(.035,.11,.15),7);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 31,
+                                    "startColumn": 52,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(0,0,27),23,19,37,FLinearColor(.035,.11,.15),7);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 31,
+                                    "startColumn": 47,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(0,0,27),23,19,37,FLinearColor(.035,.11,.15),7);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 63,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(18,0,47),FVector(9,18,17),FLinearColor(.85,.79,.54));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 59,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(18,0,47),FVector(9,18,17),FLinearColor(.85,.79,.54));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 55,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(18,0,47),FVector(9,18,17),FLinearColor(.85,.79,.54));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 65,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 60,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 55,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 133,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 128,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 123,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 80,
+                                    "snippet": {
+                                        "text": " for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 76,
+                                    "snippet": {
+                                        "text": " for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 72,
+                                    "snippet": {
+                                        "text": " for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 155,
+                                    "snippet": {
+                                        "text": " for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 151,
+                                    "snippet": {
+                                        "text": " for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 146,
+                                    "snippet": {
+                                        "text": " for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 35,
+                                    "startColumn": 63,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 35,
+                                    "startColumn": 59,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 35,
+                                    "startColumn": 55,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 35,
+                                    "startColumn": 128,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 35,
+                                    "startColumn": 124,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 35,
+                                    "startColumn": 121,
+                                    "snippet": {
+                                        "text": " F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 57,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 53,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 49,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 120,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 116,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 113,
+                                    "snippet": {
+                                        "text": " F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 100,
+                                    "snippet": {
+                                        "text": " for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 96,
+                                    "snippet": {
+                                        "text": " for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 92,
+                                    "snippet": {
+                                        "text": " for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 168,
+                                    "snippet": {
+                                        "text": " for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 163,
+                                    "snippet": {
+                                        "text": " for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 159,
+                                    "snippet": {
+                                        "text": " for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'+=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 60,
+                                    "startColumn": 150,
+                                    "snippet": {
+                                        "text": "void AGroveHero::Select_Implementation(int32 Choice){if(Choices<=0||Choice<0||Choice>2)return;Choices--;if(Choice==0){if(Bolts<5)Bolts++;else Power+=.3;}if(Choice==1)Aura=FMath::Min(Aura+1,8);if(Choice==2){Power+=.25;Health=FMath::Min(100.f,Health+30);}}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 61,
+                                    "startColumn": 322,
+                                    "snippet": {
+                                        "text": "void AGroveHero::Dash_Implementation(){if(DashCD>0||Health<=0)return;auto* S=GetWorld()->GetGameState<AGroveState>();if(!S||S->Phase!=1)return;FVector Direction=GetVelocity().GetSafeNormal2D();if(Direction.IsNearlyZero())Direction=GetActorForwardVector();LaunchCharacter(Direction*1550+FVector(0,0,180),true,true);DashCD=2.3;Invulnerability=.42;Effect(GetActorLocation(),2);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 61,
+                                    "startColumn": 342,
+                                    "snippet": {
+                                        "text": "void AGroveHero::Dash_Implementation(){if(DashCD>0||Health<=0)return;auto* S=GetWorld()->GetGameState<AGroveState>();if(!S||S->Phase!=1)return;FVector Direction=GetVelocity().GetSafeNormal2D();if(Direction.IsNearlyZero())Direction=GetActorForwardVector();LaunchCharacter(Direction*1550+FVector(0,0,180),true,true);DashCD=2.3;Invulnerability=.42;Effect(GetActorLocation(),2);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 67,
+                                    "startColumn": 48,
+                                    "snippet": {
+                                        "text": " if(SkillCD>0)return;SkillCD=8;Invulnerability=.4;Effect(GetActorLocation(),1);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 71,
+                                    "startColumn": 196,
+                                    "snippet": {
+                                        "text": "float AGroveHero::TakeDamage(float Amount,const FDamageEvent&,AController*,AActor*){if(!HasAuthority()||Health<=0||Invulnerability>0)return 0;Health=FMath::Max(0.f,Health-Amount);Invulnerability=.65;Effect(GetActorLocation(),3);return Amount;}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 75,
+                                    "startColumn": 95,
+                                    "snippet": {
+                                        "text": " if(Type==0){DrawDebugLine(GetWorld(),GetActorLocation()+FVector(10,42,50),Target,Color,false,.12,0,5);DrawDebugSphere(GetWorld(),Target,25,8,Color,false,.13,0,3);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 75,
+                                    "startColumn": 155,
+                                    "snippet": {
+                                        "text": " if(Type==0){DrawDebugLine(GetWorld(),GetActorLocation()+FVector(10,42,50),Target,Color,false,.12,0,5);DrawDebugSphere(GetWorld(),Target,25,8,Color,false,.13,0,3);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'argumento': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 76,
+                                    "startColumn": 72,
+                                    "snippet": {
+                                        "text": " else {DrawDebugCircle(GetWorld(),Target,Type==1?630:95,40,Color,false,.3,0,5,FVector(1,0,0),FVector(0,1,0),false);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 84,
+                                    "startColumn": 61,
+                                    "snippet": {
+                                        "text": " if(GetCharacterMovement()->IsMovingOnGround()){GroundGrace=.11;if(JumpBuffer>0){Jump();JumpBuffer=0;}}else GroundGrace-=D;JumpBuffer-=D;"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 91,
+                                    "startColumn": 15,
+                                    "snippet": {
+                                        "text": "  AttackClock=.55;TArray<AGroveEnemy*> Targets;for(TActorIterator<AGroveEnemy> It(GetWorld());It;++It)if(FVector::DistSquared(GetActorLocation(),It->GetActorLocation())<FMath::Square(1350.f))Targets.Add(*It);"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4305",
+                    "message": {
+                        "text": "'=': truncamiento de 'double' a 'float'"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Source/Brumaferal/GroveHero.cpp"
+                                },
+                                "region": {
+                                    "startLine": 95,
+                                    "startColumn": 37,
+                                    "snippet": {
+                                        "text": " if(Aura>0&&AuraClock<=0){AuraClock=.8;TArray<AGroveEnemy*> Near;for(TActorIterator<AGroveEnemy> It(GetWorld());It;++It)if(FVector::Dist(GetActorLocation(),It->GetActorLocation())<220+Aura*35)Near.Add(*It);for(auto* E:Near)UGameplayStatics::ApplyDamage(E,(5+Aura*3)*Power,Controller,this,nullptr);}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}

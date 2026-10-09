@@ -1,0 +1,145 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Brumaferal.uproject" -log="C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\BALAMRUSH\AppData\Local\UnrealBuildTool\Trace.uba with size 309b
+[2026.10.03-09.58.27:932][  0]LogInit: Display: Running engine for game: Brumaferal
+[2026.10.03-09.58.27:932][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.03-09.58.27:932][  0]LogTrace: Display: Control listening on port 1985
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-56702186"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.2-56702186+++UE5+Release-5.8"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.2"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9445] "
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 7700X 8-Core Processor"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Brumaferal.uproject -run=pythonscript -script=C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Tools\materials.py -nullrhi -unattended -nosplash""
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : loginid="e6d26990442145b7f9fc0f97866cb523"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.03-09.58.27:932][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading Mac ini files took 0.05 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading Android ini files took 0.05 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading IOS ini files took 0.05 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading Unix ini files took 0.06 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading Windows ini files took 0.06 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+[2026.10.03-09.58.27:932][  0]LogConfig: Display: Loading Linux ini files took 0.06 seconds
+[2026.10.03-09.58.27:932][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.03-09.58.27:932][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=307MiB, MaxMemoryAvailable=33897MiB
+[2026.10.03-09.58.27:932][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.03-09.58.27:932][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.03-09.58.27:932][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.03-09.58.27:932][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.03-09.58.27:932][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.03-09.58.27:932][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.03-09.58.27:932][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.03-09.58.27:932][  0]LogHAL: Display: Platform has ~ 32 GB [33397133312 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.03-09.58.27:932][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.03-09.58.27:932][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.03-09.58.28:257][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.03-09.58.28:379][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.03-09.58.28:379][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.03-09.58.28:379][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.03-09.58.28:379][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.03-09.58.28:379][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.03-09.58.28:379][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.03-09.58.28:387][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.03-09.58.28:387][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.03-09.58.28:387][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.03-09.58.28:387][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.03-09.58.28:387][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.03-09.58.28:387][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.03-09.58.28:387][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.03-09.58.28:387][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.03-09.58.28:387][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.03-09.58.28:424][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.03-09.58.28:443][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.03-09.58.28:463][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.03-09.58.28:481][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.03-09.58.28:483][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.03-09.58.28:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.03-09.58.28:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.03-09.58.28:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.03-09.58.28:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.03-09.58.28:504][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.03-09.58.28:508][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.03-09.58.28:779][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1679 MiB)
+[2026.10.03-09.58.28:780][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.03-09.58.29:288][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.10.03-09.58.29:289][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.03-09.58.29:289][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.03-09.58.29:289][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.03-09.58.29:290][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir C:\Users\BALAMRUSH\AppData\Local\UnrealEngine\Common\Zen\Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --restrict-content-types --allow-external-oidctoken-exe=false --plugins-config "C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugins_v1.json" --security-config-path "C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/Zen/Install/security-config.json" --owner-pid 19612  --child-id Zen_19612_Startup'
+[2026.10.03-09.58.31:452][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.03-09.58.31:453][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.10.03-09.58.31:463][  0]LogDerivedDataCache: Display: C:/Users/BALAMRUSH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.06ms. RandomReadSpeed=604.75MBs, RandomWriteSpeed=147.04MBs. Assigned SpeedClass 'Local'
+[2026.10.03-09.58.31:466][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.03-09.58.31:466][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.03-09.58.31:466][  0]LogShaderCompilers: Display: Using 13 local workers for shader compilation
+[2026.10.03-09.58.31:475][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.03-09.58.31:476][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.03-09.58.31:894][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.03-09.58.32:116][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.03-09.58.32:116][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.03-09.58.32:152][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.03-09.58.32:155][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-09.58.32:169][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.03-09.58.32:169][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.03-09.58.32:169][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.03-09.58.32:189][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.03-09.58.32:189][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.03-09.58.32:189][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.03-09.58.32:189][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.03-09.58.32:301][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.03-09.58.32:302][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.03-09.58.32:302][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.03-09.58.32:302][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.03-09.58.32:377][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.03-09.58.32:379][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.432 ms
+[2026.10.03-09.58.32:776][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.03-09.58.32:777][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.03-09.58.33:153][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-09.58.33:153][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.03-09.58.33:451][  0]LogAssetRegistry: Display: No AssetDiscovery cache present at ../../../../../../Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+[2026.10.03-09.58.33:453][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 0 .ref files found, 0 referenced binaries
+[2026.10.03-09.58.33:453][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.03-09.58.33:453][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 0 via .ref, 0 via migration fallback, 0 total
+[2026.10.03-09.58.33:454][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches from ../../../../../../Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/CachedAssetRegistry.
+[2026.10.03-09.58.33:469][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.03-09.58.33:510][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.03-09.58.33:771][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.03-09.58.33:919][  0]LogPython: Display: Ejecutando secuencia de comandos de inicio C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py… started...
+[2026.10.03-09.58.33:929][  0]LogPython: Display: Ejecutando secuencia de comandos de inicio C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py… took 10.195 ms
+[2026.10.03-09.58.33:929][  0]LogPython: Display: Ejecutando secuencia de comandos de inicio C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py… started...
+[2026.10.03-09.58.33:941][  0]LogPython: Display: Ejecutando secuencia de comandos de inicio C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py… took 12.498 ms (total: 22.693 ms)
+[2026.10.03-09.58.33:941][  0]LogPythonScriptCommandlet: Display: Running Python script: C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Tools\materials.py
+[2026.10.03-09.58.34:010][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.03-09.58.34:064][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.03-09.58.34:064][  0]LogInit: Display: 
+[2026.10.03-09.58.34:064][  0]LogInit: Display: Success - 0 error(s), 0 warning(s)
+[2026.10.03-09.58.34:064][  0]LogInit: Display: 
+
+Execution of commandlet took:  0.15 seconds, PeakPhysMemoryMB=1597 MB, PeakVirtMemoryMB=1416 MB
+[2026.10.03-09.58.34:186][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 0 .ref files found, 0 referenced binaries
+[2026.10.03-09.58.34:186][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.03-09.58.34:332][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread

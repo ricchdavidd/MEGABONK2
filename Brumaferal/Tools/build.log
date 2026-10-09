@@ -1,0 +1,772 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" BrumaferalEditor Win64 Development -Project=C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Brumaferal.uproject -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\BALAMRUSH\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal).
+UbaServer - Listening on 0.0.0.0:1345
+Invalidating makefile for BrumaferalEditor (working set of source files changed)
+Available x64 toolchains (1):
+ * C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36260, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio compiler version 14.51.36260 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+Building BrumaferalEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.51.36260 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Warning: Visual Studio compiler 14.51.36260 is not a preferred version
+[Upgrade]
+[Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6
+[Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_8;' in BrumaferalEditor.Target.cs.
+[Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[Upgrade]
+=================================
+Using Unreal Build Accelerator local executor to run 6 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 31.1 GB physical, 15.55 GB/33.1 GB committed
+  UBA Storage capacity 40 GB
+[1/6] Compile [x64] GroveWorld.cpp
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(29,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Col=Path<260?FLinearColor(.29,.24,.105):FLinearColor(.09,.22,.085);
+                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(29,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Col=Path<260?FLinearColor(.29,.24,.105):FLinearColor(.09,.22,.085);
+                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(29,42): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Col=Path<260?FLinearColor(.29,.24,.105):FLinearColor(.09,.22,.085);
+                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(29,77): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Col=Path<260?FLinearColor(.29,.24,.105):FLinearColor(.09,.22,.085);
+                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(29,73): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Col=Path<260?FLinearColor(.29,.24,.105):FLinearColor(.09,.22,.085);
+                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(29,69): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Col=Path<260?FLinearColor(.29,.24,.105):FLinearColor(.09,.22,.085);
+                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(43,51): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Cone(P,30,19,H*.67,FLinearColor(.17,.075,.032),6);
+                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(43,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Cone(P,30,19,H*.67,FLinearColor(.17,.075,.032),6);
+                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(43,42): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Cone(P,30,19,H*.67,FLinearColor(.17,.075,.032),6);
+                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(45,86): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.55),Radius*.8,Radius*1.15,H*.18,FLinearColor(.07,.23,.13),7);
+                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(45,82): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.55),Radius*.8,Radius*1.15,H*.18,FLinearColor(.07,.23,.13),7);
+                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(45,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.55),Radius*.8,Radius*1.15,H*.18,FLinearColor(.07,.23,.13),7);
+                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(46,87): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.73),Radius*1.15,Radius*.42,H*.25,FLinearColor(.16,.32,.11),7);
+                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(46,83): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.73),Radius*1.15,Radius*.42,H*.25,FLinearColor(.16,.32,.11),7);
+                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(46,79): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.73),Radius*1.15,Radius*.42,H*.25,FLinearColor(.16,.32,.11),7);
+                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(47,91): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(Radius*.8,0,H*.5),Radius*.6,Radius*.8,H*.16,FLinearColor(.10,.27,.12),6);
+                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(47,87): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(Radius*.8,0,H*.5),Radius*.6,Radius*.8,H*.16,FLinearColor(.10,.27,.12),6);
+                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(47,83): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(Radius*.8,0,H*.5),Radius*.6,Radius*.8,H*.16,FLinearColor(.10,.27,.12),6);
+                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(48,92): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(Radius*.8,0,H*.66),Radius*.8,Radius*.15,H*.19,FLinearColor(.2,.35,.13),6);
+                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(48,88): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(Radius*.8,0,H*.66),Radius*.8,Radius*.15,H*.19,FLinearColor(.2,.35,.13),6);
+                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(48,85): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(Radius*.8,0,H*.66),Radius*.8,Radius*.15,H*.19,FLinearColor(.2,.35,.13),6);
+                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(50,83): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.38),Radius,Radius*.18,H*.46,FLinearColor(.055,.20,.12),7);
+                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(50,79): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.38),Radius,Radius*.18,H*.46,FLinearColor(.055,.20,.12),7);
+                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(50,74): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(0,0,H*.38),Radius,Radius*.18,H*.46,FLinearColor(.055,.20,.12),7);
+                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(51,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(20,0,H*.63),Radius*.74,0,H*.45,FLinearColor(.14,.31,.13),7);
+                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(51,74): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(20,0,H*.63),Radius*.74,0,H*.45,FLinearColor(.14,.31,.13),7);
+                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(51,70): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+   Forest.Cone(P+FVector(20,0,H*.63),Radius*.74,0,H*.45,FLinearColor(.14,.31,.13),7);
+                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(53,64): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Forest.Cone(P+FVector(-30,0,6),68,24,48,FLinearColor(.16,.11,.05),5);
+                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(53,60): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Forest.Cone(P+FVector(-30,0,6),68,24,48,FLinearColor(.16,.11,.05),5);
+                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(53,56): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Forest.Cone(P+FVector(-30,0,6),68,24,48,FLinearColor(.16,.11,.05),5);
+                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(58,81): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Cone(P,R.FRandRange(50,150),R.FRandRange(20,70),H,FLinearColor(.24,.31,.29),5);
+                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(58,77): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Cone(P,R.FRandRange(50,150),R.FRandRange(20,70),H,FLinearColor(.24,.31,.29),5);
+                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(58,73): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Cone(P,R.FRandRange(50,150),R.FRandRange(20,70),H,FLinearColor(.24,.31,.29),5);
+                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(63,153): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  for(int StepIndex=0;StepIndex<4;StepIndex++)Solids.Box(P+FVector(0,0,StepIndex*20),FVector(250-StepIndex*36,250-StepIndex*36,12),FLinearColor(.28,.35,.32));
+                                                                                                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(63,149): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  for(int StepIndex=0;StepIndex<4;StepIndex++)Solids.Box(P+FVector(0,0,StepIndex*20),FVector(250-StepIndex*36,250-StepIndex*36,12),FLinearColor(.28,.35,.32));
+                                                                                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(63,145): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  for(int StepIndex=0;StepIndex<4;StepIndex++)Solids.Box(P+FVector(0,0,StepIndex*20),FVector(250-StepIndex*36,250-StepIndex*36,12),FLinearColor(.28,.35,.32));
+                                                                                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(64,136): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  for(int Side:{-1,1})for(int B=0;B<5;B++)Solids.Box(P+FVector(0,Side*280,55+B*88),FVector(65,65,41),FLinearColor(.3+B*.012,.36+B*.008,.31));
+                                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(65,72): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Box(P+FVector(0,0,475),FVector(80,360,55),FLinearColor(.36,.4,.32));
+                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(65,69): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Box(P+FVector(0,0,475),FVector(80,360,55),FLinearColor(.36,.4,.32));
+                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(65,65): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solids.Box(P+FVector(0,0,475),FVector(80,360,55),FLinearColor(.36,.4,.32));
+                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(66,63): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Forest.Crystal(P+FVector(0,0,690),65,170,FLinearColor(.1,.8,.65));
+                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(66,60): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Forest.Crystal(P+FVector(0,0,690),65,170,FLinearColor(.1,.8,.65));
+                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(66,57): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Forest.Crystal(P+FVector(0,0,690),65,170,FLinearColor(.1,.8,.65));
+                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(70,102): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  for(int K=0;K<2+(J%3);K++)Solids.Box(P+FVector(0,0,45+K*90),FVector(72,65,42),FLinearColor(.31,.35,.28));
+                                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(70,98): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  for(int K=0;K<2+(J%3);K++)Solids.Box(P+FVector(0,0,45+K*90),FVector(72,65,42),FLinearColor(.31,.35,.28));
+                                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(70,94): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  for(int K=0;K<2+(J%3);K++)Solids.Box(P+FVector(0,0,45+K*90),FVector(72,65,42),FLinearColor(.31,.35,.28));
+                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(74,57): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  if(G%4==0){Forest.Cone(P,12,8,20,FLinearColor(.26,.19,.08),5);Forest.Cone(P+FVector(0,0,20),30,3,20,FLinearColor(.9,.38,.12),6);}
+                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(74,53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  if(G%4==0){Forest.Cone(P,12,8,20,FLinearColor(.26,.19,.08),5);Forest.Cone(P+FVector(0,0,20),30,3,20,FLinearColor(.9,.38,.12),6);}
+                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(74,49): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  if(G%4==0){Forest.Cone(P,12,8,20,FLinearColor(.26,.19,.08),5);Forest.Cone(P+FVector(0,0,20),30,3,20,FLinearColor(.9,.38,.12),6);}
+                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(74,123): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  if(G%4==0){Forest.Cone(P,12,8,20,FLinearColor(.26,.19,.08),5);Forest.Cone(P+FVector(0,0,20),30,3,20,FLinearColor(.9,.38,.12),6);}
+                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(74,119): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  if(G%4==0){Forest.Cone(P,12,8,20,FLinearColor(.26,.19,.08),5);Forest.Cone(P+FVector(0,0,20),30,3,20,FLinearColor(.9,.38,.12),6);}
+                                                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(74,116): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  if(G%4==0){Forest.Cone(P,12,8,20,FLinearColor(.26,.19,.08),5);Forest.Cone(P+FVector(0,0,20),30,3,20,FLinearColor(.9,.38,.12),6);}
+                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(75,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  else {Forest.Tri(P+FVector(-13,0,0),P+FVector(13,0,0),P+FVector(7,0,60),FLinearColor(.22,.37,.10));Forest.Tri(P+FVector(0,14,0),P+FVector(0,-14,0),P+FVector(0,4,46),FLinearColor(.27,.4,.12));}
+                                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(75,92): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  else {Forest.Tri(P+FVector(-13,0,0),P+FVector(13,0,0),P+FVector(7,0,60),FLinearColor(.22,.37,.10));Forest.Tri(P+FVector(0,14,0),P+FVector(0,-14,0),P+FVector(0,4,46),FLinearColor(.27,.4,.12));}
+                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(75,88): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  else {Forest.Tri(P+FVector(-13,0,0),P+FVector(13,0,0),P+FVector(7,0,60),FLinearColor(.22,.37,.10));Forest.Tri(P+FVector(0,14,0),P+FVector(0,-14,0),P+FVector(0,4,46),FLinearColor(.27,.4,.12));}
+                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(75,188): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  else {Forest.Tri(P+FVector(-13,0,0),P+FVector(13,0,0),P+FVector(7,0,60),FLinearColor(.22,.37,.10));Forest.Tri(P+FVector(0,14,0),P+FVector(0,-14,0),P+FVector(0,4,46),FLinearColor(.27,.4,.12));}
+                                                                                                                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(75,185): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  else {Forest.Tri(P+FVector(-13,0,0),P+FVector(13,0,0),P+FVector(7,0,60),FLinearColor(.22,.37,.10));Forest.Tri(P+FVector(0,14,0),P+FVector(0,-14,0),P+FVector(0,4,46),FLinearColor(.27,.4,.12));}
+                                                                                                                                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(75,181): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  else {Forest.Tri(P+FVector(-13,0,0),P+FVector(13,0,0),P+FVector(7,0,60),FLinearColor(.22,.37,.10));Forest.Tri(P+FVector(0,14,0),P+FVector(0,-14,0),P+FVector(0,4,46),FLinearColor(.27,.4,.12));}
+                                                                                                                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(84,163): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int I=0;I<32;I++){float A=I*2*PI/32;Mountains.Cone(FVector(FMath::Cos(A)*8500,FMath::Sin(A)*8500,-200),1700,150,R.FRandRange(1400,3400),FLinearColor(.09,.22,.23),6);}
+                                                                                                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(84,159): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int I=0;I<32;I++){float A=I*2*PI/32;Mountains.Cone(FVector(FMath::Cos(A)*8500,FMath::Sin(A)*8500,-200),1700,150,R.FRandRange(1400,3400),FLinearColor(.09,.22,.23),6);}
+                                                                                                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(84,155): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int I=0;I<32;I++){float A=I*2*PI/32;Mountains.Cone(FVector(FMath::Cos(A)*8500,FMath::Sin(A)*8500,-200),1700,150,R.FRandRange(1400,3400),FLinearColor(.09,.22,.23),6);}
+                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(90,82): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Color=FMath::Lerp(FLinearColor(.32,.55,.53),FLinearColor(.045,.19,.28),FMath::Clamp((J-5)/6.f,0.f,1.f));
+                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(90,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Color=FMath::Lerp(FLinearColor(.32,.55,.53),FLinearColor(.045,.19,.28),FMath::Clamp((J-5)/6.f,0.f,1.f));
+                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(90,73): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Color=FMath::Lerp(FLinearColor(.32,.55,.53),FLinearColor(.045,.19,.28),FMath::Clamp((J-5)/6.f,0.f,1.f));
+                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(90,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Color=FMath::Lerp(FLinearColor(.32,.55,.53),FLinearColor(.045,.19,.28),FMath::Clamp((J-5)/6.f,0.f,1.f));
+                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(90,51): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Color=FMath::Lerp(FLinearColor(.32,.55,.53),FLinearColor(.045,.19,.28),FMath::Clamp((J-5)/6.f,0.f,1.f));
+                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(90,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  FLinearColor Color=FMath::Lerp(FLinearColor(.32,.55,.53),FLinearColor(.045,.19,.28),FMath::Clamp((J-5)/6.f,0.f,1.f));
+                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(95,200): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  auto* Sun=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,2000),FRotator(-50,-35,0));Sun->GetLightComponent()->SetMobility(EComponentMobility::Movable);Sun->GetLightComponent()->SetIntensity(2.3);Sun->GetLightComponent()->SetLightColor(FLinearColor(1,.85,.62));
+                                                                                                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(95,264): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  auto* Sun=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,2000),FRotator(-50,-35,0));Sun->GetLightComponent()->SetMobility(EComponentMobility::Movable);Sun->GetLightComponent()->SetIntensity(2.3);Sun->GetLightComponent()->SetLightColor(FLinearColor(1,.85,.62));
+                                                                                                                                                                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(95,260): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  auto* Sun=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,2000),FRotator(-50,-35,0));Sun->GetLightComponent()->SetMobility(EComponentMobility::Movable);Sun->GetLightComponent()->SetIntensity(2.3);Sun->GetLightComponent()->SetLightColor(FLinearColor(1,.85,.62));
+                                                                                                                                                                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(96,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  auto* Fog=GetWorld()->SpawnActor<AExponentialHeightFog>();Fog->GetComponent()->SetFogDensity(.008);Fog->GetComponent()->SetFogInscatteringColor(FLinearColor(.20,.36,.37));Fog->GetComponent()->SetStartDistance(2400);
+                                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(96,168): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  auto* Fog=GetWorld()->SpawnActor<AExponentialHeightFog>();Fog->GetComponent()->SetFogDensity(.008);Fog->GetComponent()->SetFogInscatteringColor(FLinearColor(.20,.36,.37));Fog->GetComponent()->SetStartDistance(2400);
+                                                                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(96,164): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  auto* Fog=GetWorld()->SpawnActor<AExponentialHeightFog>();Fog->GetComponent()->SetFogDensity(.008);Fog->GetComponent()->SetFogInscatteringColor(FLinearColor(.20,.36,.37));Fog->GetComponent()->SetStartDistance(2400);
+                                                                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(96,160): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  auto* Fog=GetWorld()->SpawnActor<AExponentialHeightFog>();Fog->GetComponent()->SetFogDensity(.008);Fog->GetComponent()->SetFogInscatteringColor(FLinearColor(.20,.36,.37));Fog->GetComponent()->SetStartDistance(2400);
+                                                                                                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(104,66): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==0)F.Crystal(FVector::ZeroVector,15,27,FLinearColor(.08,.85,1));
+                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(104,62): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==0)F.Crystal(FVector::ZeroVector,15,27,FLinearColor(.08,.85,1));
+                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,75): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,71): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,67): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,134): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,130): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,219): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,215): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                                                                                                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,283): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                                                                                                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(105,279): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==1){F.Box(FVector(0,0,20),FVector(45,32,27),FLinearColor(.35,.13,.04));F.Cone(FVector(0,0,48),47,25,30,FLinearColor(.75,.40,.10),4);for(int Y:{-24,24})F.Box(FVector(0,Y,23),FVector(48,4,32),FLinearColor(1,.68,.17));F.Box(FVector(47,0,30),FVector(3,9,10),FLinearColor(1,.85,.35));}
+                                                                                                                                                                                                                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(106,66): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==2){F.Cone(FVector(0,0,0),72,55,50,FLinearColor(.25,.35,.32));F.Crystal(FVector(0,0,120),38,95,FLinearColor(.1,1,.75));}
+                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(106,62): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==2){F.Cone(FVector(0,0,0),72,55,50,FLinearColor(.25,.35,.32));F.Crystal(FVector(0,0,120),38,95,FLinearColor(.1,1,.75));}
+                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveWorld.cpp(106,118): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==2){F.Cone(FVector(0,0,0),72,55,50,FLinearColor(.25,.35,.32));F.Crystal(FVector(0,0,120),38,95,FLinearColor(.1,1,.75));}
+                                                                                                                     ^
+[2/6] Compile [x64] GroveHero.cpp
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(17,190): warning C4305: '=': truncamiento de 'double' a 'float'
+ auto* Move=GetCharacterMovement();Move->MaxWalkSpeed=760;Move->MaxAcceleration=5400;Move->BrakingDecelerationWalking=4200;Move->GroundFriction=7;Move->JumpZVelocity=820;Move->GravityScale=1.9;Move->AirControl=.8;Move->RotationRate=FRotator(0,900,0);Move->bOrientRotationToMovement=true;Move->MaxStepHeight=48;Move->SetWalkableFloorAngle(48);
+                                                                                                                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(17,211): warning C4305: '=': truncamiento de 'double' a 'float'
+ auto* Move=GetCharacterMovement();Move->MaxWalkSpeed=760;Move->MaxAcceleration=5400;Move->BrakingDecelerationWalking=4200;Move->GroundFriction=7;Move->JumpZVelocity=820;Move->GravityScale=1.9;Move->AirControl=.8;Move->RotationRate=FRotator(0,900,0);Move->bOrientRotationToMovement=true;Move->MaxStepHeight=48;Move->SetWalkableFloorAngle(48);
+                                                                                                                                                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(27,57): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(0,0,-35),34,24,66,FLinearColor(.035,.31,.29),6);
+                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(27,53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(0,0,-35),34,24,66,FLinearColor(.035,.31,.29),6);
+                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(27,48): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(0,0,-35),34,24,66,FLinearColor(.035,.31,.29),6);
+                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(28,90): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,-28,27),FVector(-36,-43,-48),FVector(-42,0,-36),FLinearColor(.025,.18,.21));
+                                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(28,86): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,-28,27),FVector(-36,-43,-48),FVector(-42,0,-36),FLinearColor(.025,.18,.21));
+                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(28,81): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,-28,27),FVector(-36,-43,-48),FVector(-42,0,-36),FLinearColor(.025,.18,.21));
+                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(29,87): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,-28,27),FVector(-42,0,-36),FVector(-25,28,27),FLinearColor(.04,.26,.27));
+                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(29,83): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,-28,27),FVector(-42,0,-36),FVector(-25,28,27),FLinearColor(.04,.26,.27));
+                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(29,79): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,-28,27),FVector(-42,0,-36),FVector(-25,28,27),FLinearColor(.04,.26,.27));
+                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(30,88): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,28,27),FVector(-42,0,-36),FVector(-36,43,-48),FLinearColor(.035,.21,.24));
+                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(30,84): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,28,27),FVector(-42,0,-36),FVector(-36,43,-48),FLinearColor(.035,.21,.24));
+                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(30,79): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Tri(FVector(-25,28,27),FVector(-42,0,-36),FVector(-36,43,-48),FLinearColor(.035,.21,.24));
+                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(31,56): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(0,0,27),23,19,37,FLinearColor(.035,.11,.15),7);
+                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(31,52): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(0,0,27),23,19,37,FLinearColor(.035,.11,.15),7);
+                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(31,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(0,0,27),23,19,37,FLinearColor(.035,.11,.15),7);
+                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(32,63): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(18,0,47),FVector(9,18,17),FLinearColor(.85,.79,.54));
+                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(32,59): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(18,0,47),FVector(9,18,17),FLinearColor(.85,.79,.54));
+                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(32,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(18,0,47),FVector(9,18,17),FLinearColor(.85,.79,.54));
+                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(33,65): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));
+                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(33,60): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));
+                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(33,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));
+                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(33,133): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));
+                                                                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(33,128): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));
+                                                                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(33,123): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(28,-10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));F.Box(FVector(28,10,51),FVector(1,5,3),FLinearColor(.015,.045,.04));
+                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(34,80): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}
+                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(34,76): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}
+                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(34,72): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}
+                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(34,155): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}
+                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(34,151): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}
+                                                                                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(34,146): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int Side:{-1,1}){F.Cone(FVector(0,Side*18,60),8,2,35,FLinearColor(.78,.63,.33),5);F.Box(FVector(4,Side*34,-2),FVector(12,9,22),FLinearColor(.075,.22,.20));}
+                                                                                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(35,63): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));
+                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(35,59): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));
+                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(35,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));
+                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(35,128): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));
+                                                                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(35,124): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));
+                                                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(35,121): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Box(FVector(5,0,-22),FVector(29,30,5),FLinearColor(.23,.11,.05));F.Box(FVector(33,0,-22),FVector(4,8,8),FLinearColor(.9,.57,.15));
+                                                                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(36,57): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));
+                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(36,53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));
+                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(36,49): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));
+                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(36,120): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));
+                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(36,116): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));
+                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(36,113): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ F.Cone(FVector(15,42,-65),4,4,150,FLinearColor(.32,.16,.055),5);F.Crystal(FVector(15,42,92),13,29,FLinearColor(.2,.95,.8));
+                                                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(38,100): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}
+                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(38,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}
+                                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(38,92): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}
+                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(38,168): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}
+                                                                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(38,163): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}
+                                                                                                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(38,159): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(auto* Leg:{LegL,LegR}){FFacet B;B.Box(FVector(0,0,-17),FVector(10,10,21),FLinearColor(.13,.18,.16));B.Box(FVector(6,0,-37),FVector(17,12,8),FLinearColor(.16,.095,.04));B.Apply(Leg);}
+                                                                                                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(60,150): warning C4305: '+=': truncamiento de 'double' a 'float'
+void AGroveHero::Select_Implementation(int32 Choice){if(Choices<=0||Choice<0||Choice>2)return;Choices--;if(Choice==0){if(Bolts<5)Bolts++;else Power+=.3;}if(Choice==1)Aura=FMath::Min(Aura+1,8);if(Choice==2){Power+=.25;Health=FMath::Min(100.f,Health+30);}}
+                                                                                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(61,322): warning C4305: '=': truncamiento de 'double' a 'float'
+void AGroveHero::Dash_Implementation(){if(DashCD>0||Health<=0)return;auto* S=GetWorld()->GetGameState<AGroveState>();if(!S||S->Phase!=1)return;FVector Direction=GetVelocity().GetSafeNormal2D();if(Direction.IsNearlyZero())Direction=GetActorForwardVector();LaunchCharacter(Direction*1550+FVector(0,0,180),true,true);DashCD=2.3;Invulnerability=.42;Effect(GetActorLocation(),2);}
+                                                                                                                                                                                                                                                                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(61,342): warning C4305: '=': truncamiento de 'double' a 'float'
+void AGroveHero::Dash_Implementation(){if(DashCD>0||Health<=0)return;auto* S=GetWorld()->GetGameState<AGroveState>();if(!S||S->Phase!=1)return;FVector Direction=GetVelocity().GetSafeNormal2D();if(Direction.IsNearlyZero())Direction=GetActorForwardVector();LaunchCharacter(Direction*1550+FVector(0,0,180),true,true);DashCD=2.3;Invulnerability=.42;Effect(GetActorLocation(),2);}
+                                                                                                                                                                                                                                                                                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(67,48): warning C4305: '=': truncamiento de 'double' a 'float'
+ if(SkillCD>0)return;SkillCD=8;Invulnerability=.4;Effect(GetActorLocation(),1);
+                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(71,196): warning C4305: '=': truncamiento de 'double' a 'float'
+float AGroveHero::TakeDamage(float Amount,const FDamageEvent&,AController*,AActor*){if(!HasAuthority()||Health<=0||Invulnerability>0)return 0;Health=FMath::Max(0.f,Health-Amount);Invulnerability=.65;Effect(GetActorLocation(),3);return Amount;}
+                                                                                                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(75,95): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Type==0){DrawDebugLine(GetWorld(),GetActorLocation()+FVector(10,42,50),Target,Color,false,.12,0,5);DrawDebugSphere(GetWorld(),Target,25,8,Color,false,.13,0,3);}
+                                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(75,155): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Type==0){DrawDebugLine(GetWorld(),GetActorLocation()+FVector(10,42,50),Target,Color,false,.12,0,5);DrawDebugSphere(GetWorld(),Target,25,8,Color,false,.13,0,3);}
+                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(76,72): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ else {DrawDebugCircle(GetWorld(),Target,Type==1?630:95,40,Color,false,.3,0,5,FVector(1,0,0),FVector(0,1,0),false);}
+                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(84,61): warning C4305: '=': truncamiento de 'double' a 'float'
+ if(GetCharacterMovement()->IsMovingOnGround()){GroundGrace=.11;if(JumpBuffer>0){Jump();JumpBuffer=0;}}else GroundGrace-=D;JumpBuffer-=D;
+                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(91,15): warning C4305: '=': truncamiento de 'double' a 'float'
+  AttackClock=.55;TArray<AGroveEnemy*> Targets;for(TActorIterator<AGroveEnemy> It(GetWorld());It;++It)if(FVector::DistSquared(GetActorLocation(),It->GetActorLocation())<FMath::Square(1350.f))Targets.Add(*It);
+              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\GroveHero.cpp(95,37): warning C4305: '=': truncamiento de 'double' a 'float'
+ if(Aura>0&&AuraClock<=0){AuraClock=.8;TArray<AGroveEnemy*> Near;for(TActorIterator<AGroveEnemy> It(GetWorld());It;++It)if(FVector::Dist(GetActorLocation(),It->GetActorLocation())<220+Aura*35)Near.Add(*It);for(auto* E:Near)UGameplayStatics::ApplyDamage(E,(5+Aura*3)*Power,Controller,this,nullptr);}
+                                    ^
+[3/6] Compile [x64] Grove.cpp
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,59): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,51): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,93): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,89): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,85): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,119): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(29,115): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ FFacet F;FLinearColor Color=Kind==1?FLinearColor(.38,.13,.15):Kind==2?FLinearColor(.28,.28,.18):FLinearColor(.25,.38,.08);
+                                                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(31,129): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int S:{-1,1}){F.Cone(FVector(-6,S*27,39),12,0,45,Color*.65f,4);F.Box(FVector(26,S*13,33),FVector(5,7,6),FLinearColor(1,.44,.025));F.Box(FVector(0,S*23,-43),FVector(18,11,12),Color*.5f);F.Cone(FVector(4,S*34,-10),11,6,35,Color*.7f,4);}
+                                                                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(31,125): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(int S:{-1,1}){F.Cone(FVector(-6,S*27,39),12,0,45,Color*.65f,4);F.Box(FVector(26,S*13,33),FVector(5,7,6),FLinearColor(1,.44,.025));F.Box(FVector(0,S*23,-43),FVector(18,11,12),Color*.5f);F.Cone(FVector(4,S*34,-10),11,6,35,Color*.7f,4);}
+                                                                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(32,93): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==2)for(int I=0;I<5;I++)F.Crystal(FVector(-20,I*14-28,30),12,30,FLinearColor(.6,.48,.18));
+                                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(32,89): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==2)for(int I=0;I<5;I++)F.Crystal(FVector(-20,I*14-28,30),12,30,FLinearColor(.6,.48,.18));
+                                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(32,86): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==2)for(int I=0;I<5;I++)F.Crystal(FVector(-20,I*14-28,30),12,30,FLinearColor(.6,.48,.18));
+                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(33,66): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==3){F.Cone(FVector(0,0,55),30,37,24,FLinearColor(.9,.55,.1),7);F.Crystal(FVector(0,0,90),18,50,FLinearColor(1,.38,.08));}
+                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(33,62): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==3){F.Cone(FVector(0,0,55),30,37,24,FLinearColor(.9,.55,.1),7);F.Crystal(FVector(0,0,90),18,50,FLinearColor(1,.38,.08));}
+                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(33,59): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==3){F.Cone(FVector(0,0,55),30,37,24,FLinearColor(.9,.55,.1),7);F.Crystal(FVector(0,0,90),18,50,FLinearColor(1,.38,.08));}
+                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(33,124): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==3){F.Cone(FVector(0,0,55),30,37,24,FLinearColor(.9,.55,.1),7);F.Crystal(FVector(0,0,90),18,50,FLinearColor(1,.38,.08));}
+                                                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(33,120): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(Kind==3){F.Cone(FVector(0,0,55),30,37,24,FLinearColor(.9,.55,.1),7);F.Crystal(FVector(0,0,90),18,50,FLinearColor(1,.38,.08));}
+                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(55,67): warning C4305: '=': truncamiento de 'double' a 'float'
+ if(Kind==1&&AttackClock<=0&&Best<FMath::Square(950.f)){Telegraph=.65;ChargeDirection=Direction;AttackClock=4;}
+                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(56,67): warning C4305: '=': truncamiento de 'double' a 'float'
+ if(Kind==3&&AttackClock<=0&&Best<FMath::Square(700.f)){Telegraph=1.1;AttackClock=3;}
+                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(57,155): warning C4305: '=': truncamiento de 'double' a 'float'
+ if(Kind!=3&&Best<FMath::Square(95.f+(Kind==2?40:0))&&AttackClock<=0){UGameplayStatics::ApplyDamage(Target,Kind==2?16:8,nullptr,this,nullptr);AttackClock=1.2;}
+                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(131,12): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ auto Text=[&](FString T,float X,float Z,float Size=1.f,FLinearColor C=FLinearColor(.9,.94,.83)){DrawText(T,C,X*Scale,Z*Scale,GEngine->GetMediumFont(),Size*Scale);};
+           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(132,87): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ auto Panel=[&](float X,float Z,float A,float B){DrawRect(FLinearColor(.018,.045,.045,.88),X*Scale,Z*Scale,A*Scale,B*Scale);};
+                                                                                      ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(132,82): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ auto Panel=[&](float X,float Z,float A,float B){DrawRect(FLinearColor(.018,.045,.045,.88),X*Scale,Z*Scale,A*Scale,B*Scale);};
+                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(132,77): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ auto Panel=[&](float X,float Z,float A,float B){DrawRect(FLinearColor(.018,.045,.045,.88),X*Scale,Z*Scale,A*Scale,B*Scale);};
+                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(132,72): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ auto Panel=[&](float X,float Z,float A,float B){DrawRect(FLinearColor(.018,.045,.045,.88),X*Scale,Z*Scale,A*Scale,B*Scale);};
+                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(134,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.04,.09,.09),0,0,W,6*Scale);DrawRect(FLinearColor(.22,.85,.63),0,0,W*H->XP/FMath::Max(1,H->Level*9),6*Scale);
+                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(134,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.04,.09,.09),0,0,W,6*Scale);DrawRect(FLinearColor(.22,.85,.63),0,0,W*H->XP/FMath::Max(1,H->Level*9),6*Scale);
+                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(134,24): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.04,.09,.09),0,0,W,6*Scale);DrawRect(FLinearColor(.22,.85,.63),0,0,W*H->XP/FMath::Max(1,H->Level*9),6*Scale);
+                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(134,82): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.04,.09,.09),0,0,W,6*Scale);DrawRect(FLinearColor(.22,.85,.63),0,0,W*H->XP/FMath::Max(1,H->Level*9),6*Scale);
+                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(134,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.04,.09,.09),0,0,W,6*Scale);DrawRect(FLinearColor(.22,.85,.63),0,0,W*H->XP/FMath::Max(1,H->Level*9),6*Scale);
+                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(134,74): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.04,.09,.09),0,0,W,6*Scale);DrawRect(FLinearColor(.22,.85,.63),0,0,W*H->XP/FMath::Max(1,H->Level*9),6*Scale);
+                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(135,77): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(22,24,235,85);Text(TEXT("BRUMAFERAL"),36,33,1.05,FLinearColor(.5,.88,.67));Text(FString::Printf(TEXT("VIGIA  /  NIVEL %d"),H->Level),36,57,.7);
+                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(135,73): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(22,24,235,85);Text(TEXT("BRUMAFERAL"),36,33,1.05,FLinearColor(.5,.88,.67));Text(FString::Printf(TEXT("VIGIA  /  NIVEL %d"),H->Level),36,57,.7);
+                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(135,52): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(22,24,235,85);Text(TEXT("BRUMAFERAL"),36,33,1.05,FLinearColor(.5,.88,.67));Text(FString::Printf(TEXT("VIGIA  /  NIVEL %d"),H->Level),36,57,.7);
+                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(135,147): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(22,24,235,85);Text(TEXT("BRUMAFERAL"),36,33,1.05,FLinearColor(.5,.88,.67));Text(FString::Printf(TEXT("VIGIA  /  NIVEL %d"),H->Level),36,57,.7);
+                                                                                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(136,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.12,.19,.17),36*Scale,84*Scale,205*Scale,9*Scale);DrawRect(FLinearColor(.46,.84,.38),36*Scale,84*Scale,205*Scale*H->Health/100,9*Scale);
+                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(136,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.12,.19,.17),36*Scale,84*Scale,205*Scale,9*Scale);DrawRect(FLinearColor(.46,.84,.38),36*Scale,84*Scale,205*Scale*H->Health/100,9*Scale);
+                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(136,24): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.12,.19,.17),36*Scale,84*Scale,205*Scale,9*Scale);DrawRect(FLinearColor(.46,.84,.38),36*Scale,84*Scale,205*Scale*H->Health/100,9*Scale);
+                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(136,104): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.12,.19,.17),36*Scale,84*Scale,205*Scale,9*Scale);DrawRect(FLinearColor(.46,.84,.38),36*Scale,84*Scale,205*Scale*H->Health/100,9*Scale);
+                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(136,100): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.12,.19,.17),36*Scale,84*Scale,205*Scale,9*Scale);DrawRect(FLinearColor(.46,.84,.38),36*Scale,84*Scale,205*Scale*H->Health/100,9*Scale);
+                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(136,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.12,.19,.17),36*Scale,84*Scale,205*Scale,9*Scale);DrawRect(FLinearColor(.46,.84,.38),36*Scale,84*Scale,205*Scale*H->Health/100,9*Scale);
+                                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(137,116): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW/2-65,24,130,65);Text(FString::Printf(TEXT("%02d:%02d"),int(S->Elapsed)/60,int(S->Elapsed)%60),SW/2-35,33,1.2);Text(FString::Printf(TEXT("%d BAJAS"),S->Kills),SW/2-31,63,.65);
+                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(137,180): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW/2-65,24,130,65);Text(FString::Printf(TEXT("%02d:%02d"),int(S->Elapsed)/60,int(S->Elapsed)%60),SW/2-35,33,1.2);Text(FString::Printf(TEXT("%d BAJAS"),S->Kills),SW/2-31,63,.65);
+                                                                                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(138,94): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW-255,24,233,100);Text(TEXT("EL BOSQUE DESPIERTA"),SW-241,34,.8,FLinearColor(.95,.76,.37));Text(FString::Printf(TEXT("Santuarios   %d / 3"),S->Shrines),SW-241,62,.85);Text(FString::Printf(TEXT("Ambar  %d    |    Cofre  10"),H->Gold),SW-241,91,.7);
+                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(138,90): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW-255,24,233,100);Text(TEXT("EL BOSQUE DESPIERTA"),SW-241,34,.8,FLinearColor(.95,.76,.37));Text(FString::Printf(TEXT("Santuarios   %d / 3"),S->Shrines),SW-241,62,.85);Text(FString::Printf(TEXT("Ambar  %d    |    Cofre  10"),H->Gold),SW-241,91,.7);
+                                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(138,86): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW-255,24,233,100);Text(TEXT("EL BOSQUE DESPIERTA"),SW-241,34,.8,FLinearColor(.95,.76,.37));Text(FString::Printf(TEXT("Santuarios   %d / 3"),S->Shrines),SW-241,62,.85);Text(FString::Printf(TEXT("Ambar  %d    |    Cofre  10"),H->Gold),SW-241,91,.7);
+                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(138,70): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW-255,24,233,100);Text(TEXT("EL BOSQUE DESPIERTA"),SW-241,34,.8,FLinearColor(.95,.76,.37));Text(FString::Printf(TEXT("Santuarios   %d / 3"),S->Shrines),SW-241,62,.85);Text(FString::Printf(TEXT("Ambar  %d    |    Cofre  10"),H->Gold),SW-241,91,.7);
+                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(138,171): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW-255,24,233,100);Text(TEXT("EL BOSQUE DESPIERTA"),SW-241,34,.8,FLinearColor(.95,.76,.37));Text(FString::Printf(TEXT("Santuarios   %d / 3"),S->Shrines),SW-241,62,.85);Text(FString::Printf(TEXT("Ambar  %d    |    Cofre  10"),H->Gold),SW-241,91,.7);
+                                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(138,252): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Panel(SW-255,24,233,100);Text(TEXT("EL BOSQUE DESPIERTA"),SW-241,34,.8,FLinearColor(.95,.76,.37));Text(FString::Printf(TEXT("Santuarios   %d / 3"),S->Shrines),SW-241,62,.85);Text(FString::Printf(TEXT("Ambar  %d    |    Cofre  10"),H->Gold),SW-241,91,.7);
+                                                                                                                                                                                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(141,29): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.4,1,.8),(Center.X-3)*Scale,(Center.Y-3)*Scale,6*Scale,6*Scale);
+                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(141,24): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ DrawRect(FLinearColor(.4,1,.8),(Center.X-3)*Scale,(Center.Y-3)*Scale,6*Scale,6*Scale);
+                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(143,142): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(TActorIterator<AGroveReward> It(GetWorld());It;++It)if(!It->Used&&It->Kind>0)Radar(It->GetActorLocation(),It->Kind==2?FLinearColor(.1,1,.8):FLinearColor(1,.7,.15),3);
+                                                                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(143,137): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(TActorIterator<AGroveReward> It(GetWorld());It;++It)if(!It->Used&&It->Kind>0)Radar(It->GetActorLocation(),It->Kind==2?FLinearColor(.1,1,.8):FLinearColor(1,.7,.15),3);
+                                                                                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(143,164): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(TActorIterator<AGroveReward> It(GetWorld());It;++It)if(!It->Used&&It->Kind>0)Radar(It->GetActorLocation(),It->Kind==2?FLinearColor(.1,1,.8):FLinearColor(1,.7,.15),3);
+                                                                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(143,161): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(TActorIterator<AGroveReward> It(GetWorld());It;++It)if(!It->Used&&It->Kind>0)Radar(It->GetActorLocation(),It->Kind==2?FLinearColor(.1,1,.8):FLinearColor(1,.7,.15),3);
+                                                                                                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(144,105): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(TActorIterator<AGroveEnemy> It(GetWorld());It;++It)Radar(It->GetActorLocation(),FLinearColor(1,.35,.18),2);
+                                                                                                        ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(144,101): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ for(TActorIterator<AGroveEnemy> It(GetWorld());It;++It)Radar(It->GetActorLocation(),FLinearColor(1,.35,.18),2);
+                                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(145,85): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Text(TEXT("WASD mover   RATON camara   ESPACIO saltar   RUEDA distancia"),24,SH-54,.72);
+                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(146,150): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Text(FString::Printf(TEXT("SHIFT impulso %.1fs    E pulso / interactuar %.1fs    ESC pausa"),H->DashCD,H->SkillCD),24,SH-31,.72,FLinearColor(.7,.86,.67));
+                                                                                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(146,146): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Text(FString::Printf(TEXT("SHIFT impulso %.1fs    E pulso / interactuar %.1fs    ESC pausa"),H->DashCD,H->SkillCD),24,SH-31,.72,FLinearColor(.7,.86,.67));
+                                                                                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(146,143): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Text(FString::Printf(TEXT("SHIFT impulso %.1fs    E pulso / interactuar %.1fs    ESC pausa"),H->DashCD,H->SkillCD),24,SH-31,.72,FLinearColor(.7,.86,.67));
+                                                                                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(146,126): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ Text(FString::Printf(TEXT("SHIFT impulso %.1fs    E pulso / interactuar %.1fs    ESC pausa"),H->DashCD,H->SkillCD),24,SH-31,.72,FLinearColor(.7,.86,.67));
+                                                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,104): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,100): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,97): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,80): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                               ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,178): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,174): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,171): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                          ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,154): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,257): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                                                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,332): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                                                                                                                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,413): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,410): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(147,390): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==0){Panel(30,SH/2-115,435,230);Text(TEXT("BRUMAFERAL"),52,SH/2-97,2.1,FLinearColor(.9,.83,.55));Text(TEXT("LAS RUINAS DEL ALBA"),54,SH/2-47,.86,FLinearColor(.4,.87,.72));Text(TEXT("Despierta tres santuarios. Sobrevive al guardian."),54,SH/2-9,.72);Text(TEXT("Recoge cristales y elige como crece tu poder."),54,SH/2+16,.72);Text(TEXT("ENTER   /   ENTRAR AL BOSQUE"),54,SH/2+63,1.05,FLinearColor(1,.8,.37));}
+                                                                                                                                                                                                                                                                                                                                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(149,149): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  float X=SW/2-310;Panel(X,SH-155,620,78);Text(FString::Printf(TEXT("NUEVO PODER  /  %d elecciones"),H->Choices),X+16,SH-146,.72,FLinearColor(1,.82,.3));Text(TEXT("[1] Brote multiple"),X+16,SH-118,.8);Text(TEXT("[2] Aura de espinas"),X+220,SH-118,.8);Text(TEXT("[3] Fuerza + curacion"),X+425,SH-118,.8);}
+                                                                                                                                                    ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(149,145): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  float X=SW/2-310;Panel(X,SH-155,620,78);Text(FString::Printf(TEXT("NUEVO PODER  /  %d elecciones"),H->Choices),X+16,SH-146,.72,FLinearColor(1,.82,.3));Text(TEXT("[1] Brote multiple"),X+16,SH-118,.8);Text(TEXT("[2] Aura de espinas"),X+220,SH-118,.8);Text(TEXT("[3] Fuerza + curacion"),X+425,SH-118,.8);}
+                                                                                                                                                ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(149,126): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  float X=SW/2-310;Panel(X,SH-155,620,78);Text(FString::Printf(TEXT("NUEVO PODER  /  %d elecciones"),H->Choices),X+16,SH-146,.72,FLinearColor(1,.82,.3));Text(TEXT("[1] Brote multiple"),X+16,SH-118,.8);Text(TEXT("[2] Aura de espinas"),X+220,SH-118,.8);Text(TEXT("[3] Fuerza + curacion"),X+425,SH-118,.8);}
+                                                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(149,198): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  float X=SW/2-310;Panel(X,SH-155,620,78);Text(FString::Printf(TEXT("NUEVO PODER  /  %d elecciones"),H->Choices),X+16,SH-146,.72,FLinearColor(1,.82,.3));Text(TEXT("[1] Brote multiple"),X+16,SH-118,.8);Text(TEXT("[2] Aura de espinas"),X+220,SH-118,.8);Text(TEXT("[3] Fuerza + curacion"),X+425,SH-118,.8);}
+                                                                                                                                                                                                     ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(149,248): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  float X=SW/2-310;Panel(X,SH-155,620,78);Text(FString::Printf(TEXT("NUEVO PODER  /  %d elecciones"),H->Choices),X+16,SH-146,.72,FLinearColor(1,.82,.3));Text(TEXT("[1] Brote multiple"),X+16,SH-118,.8);Text(TEXT("[2] Aura de espinas"),X+220,SH-118,.8);Text(TEXT("[3] Fuerza + curacion"),X+425,SH-118,.8);}
+                                                                                                                                                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(149,300): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  float X=SW/2-310;Panel(X,SH-155,620,78);Text(FString::Printf(TEXT("NUEVO PODER  /  %d elecciones"),H->Choices),X+16,SH-146,.72,FLinearColor(1,.82,.3));Text(TEXT("[1] Brote multiple"),X+16,SH-118,.8);Text(TEXT("[2] Aura de espinas"),X+220,SH-118,.8);Text(TEXT("[3] Fuerza + curacion"),X+425,SH-118,.8);}
+                                                                                                                                                                                                                                                                                                           ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(150,291): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==1)for(TActorIterator<AGroveReward> It(GetWorld());It;++It)if(!It->Used&&It->Kind>0&&FVector::Dist(It->GetActorLocation(),H->GetActorLocation())<240){Text(It->Kind==2?TEXT("E  /  DESPERTAR SANTUARIO"):TEXT("E  /  ABRIR COFRE - 10 AMBAR"),SW/2-130,SH/2+80,.9,FLinearColor(1,.83,.35));break;}
+                                                                                                                                                                                                                                                                                                  ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(150,287): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==1)for(TActorIterator<AGroveReward> It(GetWorld());It;++It)if(!It->Used&&It->Kind>0&&FVector::Dist(It->GetActorLocation(),H->GetActorLocation())<240){Text(It->Kind==2?TEXT("E  /  DESPERTAR SANTUARIO"):TEXT("E  /  ABRIR COFRE - 10 AMBAR"),SW/2-130,SH/2+80,.9,FLinearColor(1,.83,.35));break;}
+                                                                                                                                                                                                                                                                                              ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(150,269): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase==1)for(TActorIterator<AGroveReward> It(GetWorld());It;++It)if(!It->Used&&It->Kind>0&&FVector::Dist(It->GetActorLocation(),H->GetActorLocation())<240){Text(It->Kind==2?TEXT("E  /  DESPERTAR SANTUARIO"):TEXT("E  /  ABRIR COFRE - 10 AMBAR"),SW/2-130,SH/2+80,.9,FLinearColor(1,.83,.35));break;}
+                                                                                                                                                                                                                                                                            ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(151,116): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(UGameplayStatics::IsGamePaused(GetWorld())){Panel(SW/2-160,SH/2-55,320,105);Text(TEXT("PAUSA"),SW/2-45,SH/2-39,1.7);Text(TEXT("ESC para continuar"),SW/2-84,SH/2+9,.9);}
+                                                                                                                   ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(151,168): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(UGameplayStatics::IsGamePaused(GetWorld())){Panel(SW/2-160,SH/2-55,320,105);Text(TEXT("PAUSA"),SW/2-45,SH/2-39,1.7);Text(TEXT("ESC para continuar"),SW/2-84,SH/2+9,.9);}
+                                                                                                                                                                       ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(152,162): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase>=2){Panel(SW/2-245,SH/2-90,490,180);Text(S->Phase==2?TEXT("EL BOSQUE RESPIRA"):TEXT("LA BRUMA TE ALCANZO"),SW/2-205,SH/2-62,1.45,FLinearColor(1,.79,.4));Text(FString::Printf(TEXT("%d bajas  |  Nivel %d  |  %d santuarios"),S->Kills,H->Level,S->Shrines),SW/2-175,SH/2-15,.9);Text(TEXT("ENTER / VOLVER A INTENTAR"),SW/2-155,SH/2+40,1);}
+                                                                                                                                                                 ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(152,158): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase>=2){Panel(SW/2-245,SH/2-90,490,180);Text(S->Phase==2?TEXT("EL BOSQUE RESPIRA"):TEXT("LA BRUMA TE ALCANZO"),SW/2-205,SH/2-62,1.45,FLinearColor(1,.79,.4));Text(FString::Printf(TEXT("%d bajas  |  Nivel %d  |  %d santuarios"),S->Kills,H->Level,S->Shrines),SW/2-175,SH/2-15,.9);Text(TEXT("ENTER / VOLVER A INTENTAR"),SW/2-155,SH/2+40,1);}
+                                                                                                                                                             ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(152,138): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase>=2){Panel(SW/2-245,SH/2-90,490,180);Text(S->Phase==2?TEXT("EL BOSQUE RESPIRA"):TEXT("LA BRUMA TE ALCANZO"),SW/2-205,SH/2-62,1.45,FLinearColor(1,.79,.4));Text(FString::Printf(TEXT("%d bajas  |  Nivel %d  |  %d santuarios"),S->Kills,H->Level,S->Shrines),SW/2-175,SH/2-15,.9);Text(TEXT("ENTER / VOLVER A INTENTAR"),SW/2-155,SH/2+40,1);}
+                                                                                                                                         ^
+C:\Users\BALAMRUSH\.codex\.chatgpt-projects\g-p-6abf85231014819196482d9baf409458\Brumaferal\Source\Brumaferal\Grove.cpp(152,283): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+ if(S->Phase>=2){Panel(SW/2-245,SH/2-90,490,180);Text(S->Phase==2?TEXT("EL BOSQUE RESPIRA"):TEXT("LA BRUMA TE ALCANZO"),SW/2-205,SH/2-62,1.45,FLinearColor(1,.79,.4));Text(FString::Printf(TEXT("%d bajas  |  Nivel %d  |  %d santuarios"),S->Kills,H->Level,S->Shrines),SW/2-175,SH/2-15,.9);Text(TEXT("ENTER / VOLVER A INTENTAR"),SW/2-155,SH/2+40,1);}
+                                                                                                                                                                                                                                                                                          ^
+[4/6] Link [x64] UnrealEditor-Brumaferal.lib
+   Creando biblioteca C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/UnrealEditor-Brumaferal.lib y objeto C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/UnrealEditor-Brumaferal.exp
+[5/6] Link [x64] UnrealEditor-Brumaferal.dll
+[6/6] WriteMetadata BrumaferalEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 7.89 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 10.04 seconds
+Trace written to file C:\Users\BALAMRUSH\AppData\Local\UnrealBuildTool\Trace.uba with size 6.6kb

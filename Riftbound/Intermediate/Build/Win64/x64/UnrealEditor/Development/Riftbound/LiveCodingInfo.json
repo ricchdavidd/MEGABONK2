@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Riftbound.gen.cpp.obj": [
+			"Riftbound.gen.cpp.obj",
+			"Riftbound.init.gen.cpp.obj"
+		]
+	}
+}

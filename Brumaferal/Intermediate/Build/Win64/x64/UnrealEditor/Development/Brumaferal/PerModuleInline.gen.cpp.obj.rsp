@@ -1,0 +1,14 @@
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp"
+@"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Brumaferal.Shared.rsp"
+/FI"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h"
+/FI"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Definitions.Brumaferal.h"
+/Yu"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h"
+/Fp"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.pch"
+/Fo"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.obj"
+/experimental:log "C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.sarif"
+/sourceDependencies "C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.dep.json"
+/nologo
+/TP
+/GR-
+/std:c++20
+/wd5054

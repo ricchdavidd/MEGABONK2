@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/experimental:deterministic
+/DEF
+/NAME:"UnrealEditor-Brumaferal.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/BrumaferalEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Module.Brumaferal.gen.cpp.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/Grove.cpp.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveHero.cpp.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/GroveWorld.cpp.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/PerModuleInline.gen.cpp.obj"
+/OUT:"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Brumaferal/Intermediate/Build/Win64/x64/UnrealEditor/Development/Brumaferal/UnrealEditor-Brumaferal.lib"

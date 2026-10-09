@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\balamrush\\.codex\\.chatgpt-projects\\g-p-6abf85231014819196482d9baf409458\\brumaferal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\brumaferal\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\balamrush\\.codex\\.chatgpt-projects\\g-p-6abf85231014819196482d9baf409458\\brumaferal\\intermediate\\build\\win64\\x64\\brumaferaleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_6.h.pch",
+        "Includes": [
+            "c:\\users\\balamrush\\.codex\\.chatgpt-projects\\g-p-6abf85231014819196482d9baf409458\\brumaferal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\brumaferal\\definitions.brumaferal.h",
+            "c:\\program files\\epic games\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

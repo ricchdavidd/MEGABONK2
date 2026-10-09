@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Riftbound",
+			"Path": "..\\Source\\Riftbound.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RiftboundEditor",
+			"Path": "..\\Source\\RiftboundEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

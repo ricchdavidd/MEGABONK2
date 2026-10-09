@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/experimental:deterministic
+/DEF
+/NAME:"UnrealEditor-Riftbound.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Riftbound/Intermediate/Build/Win64/x64/RiftboundEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Module.Riftbound.gen.cpp.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/Riftbound.cpp.obj"
+"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/PerModuleInline.gen.cpp.obj"
+/OUT:"C:/Users/BALAMRUSH/.codex/.chatgpt-projects/g-p-6abf85231014819196482d9baf409458/Riftbound/Intermediate/Build/Win64/x64/UnrealEditor/Development/Riftbound/UnrealEditor-Riftbound.lib"

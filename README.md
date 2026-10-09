@@ -6,6 +6,8 @@ Roguelite de supervivencia en tercera persona, original, inspirado en las *sensa
 
 **Estado actual:** Entrega 1, jugable **en solitario**. Es una base que funciona, no un producto terminado. El análisis técnico completo, los fallos conocidos y la hoja de ruta están en **[docs/ANALISIS.md](docs/ANALISIS.md)**.
 
+> ⚠️ **Rutas de otro PC:** el repositorio guarda **todo** el estado del proyecto tal como estaba en el PC del autor: binarios, intermedios, cachés, `Saved/`, registros y el contexto completo de las conversaciones. Por eso muchos archivos contienen rutas absolutas como `C:\Users\BALAMRUSH\...`, `C:\Users\BALAMRUSH\.codex\.chatgpt-projects\...` o `C:\Program Files\Epic Games\UE_5.8`. **Son rutas de esa máquina y no tienen que existir en la tuya.** El detalle está en **[docs/RUTAS_Y_ENTORNO_ORIGINAL.md](docs/RUTAS_Y_ENTORNO_ORIGINAL.md)**.
+
 ![Bosque](docs/img/Forest.png)
 
 ---
@@ -17,7 +19,8 @@ Roguelite de supervivencia en tercera persona, original, inspirado en las *sensa
 | `Brumaferal/` | **Proyecto vigente** (Unreal Engine 5.8, C++). Aquí se trabaja. |
 | `Riftbound/` | Primer intento, **rechazado** por verse demasiado básico. Se conserva solo como referencia técnica (clases, reanimación, guardado, prueba de red con 6 conexiones). No continuar su diseño. |
 | `Documentacion/` | Material de traspaso desde ChatGPT/Codex: estado detallado, documentos originales, conversaciones de diseño y el **prompt maestro** con los criterios de aceptación. |
-| `docs/` | Documentación del equipo: análisis técnico e imágenes. |
+| `docs/` | Documentación del equipo: análisis técnico, rutas y entorno del PC original, imágenes. |
+| `*/Binaries`, `*/Intermediate`, `*/Saved`, `*/DerivedDataCache`, `Brumaferal/Tools/*.log` | Estado generado en el PC original: DLL compiladas, cachés, registros de pruebas y capturas. Se versionan para conservar el contexto. **Excepción:** los `.pch` (~2,6 GB cada uno) superan el límite de GitHub y se regeneran al compilar. |
 | `sources/` | Referencias de solo lectura (vacía por ahora). No editar. |
 | `MANIFIESTO.json` | Inventario con SHA-256 de la exportación original (incluye archivos que no se suben a git). |
 | `AGENTS.md` | Reglas para asistentes de IA que trabajen en el repo. |
@@ -59,14 +62,17 @@ Hardware de referencia: Ryzen 7 7700X y RTX 4070 Ti SUPER, a 1440×900. Ahí la 
 ### 3.1 Clonar
 
 ```powershell
+git lfs install
 git clone https://github.com/ricchdavidd/MEGABONK2.git C:\Dev\MEGABONK2
 ```
 
+Git LFS viene con Git for Windows y se usa para los archivos de más de 50 MB (`.pdb` y algunos intermedios). Si clonas sin LFS, esos archivos quedan como punteros de texto; no afecta a compilar ni a jugar.
+
 > **Recomendado:** clonar en una ruta corta y **fuera de OneDrive/Dropbox**. Unreal genera miles de archivos temporales; la sincronización en la nube bloquea archivos y rompe compilaciones. Las rutas largas también dan problemas en Windows.
 
-### 3.2 Compilar (obligatorio la primera vez)
+### 3.2 Compilar
 
-Los binarios **no** se suben al repo, así que hay que compilar después de clonar.
+El repo incluye las DLL compiladas en el PC original (`Binaries/`). Si tu Unreal es exactamente la 5.8.2, puede que arranque sin compilar. Si Unreal dice que faltan módulos o que se compilaron con otra versión, compila de una de estas dos formas:
 
 **Opción A, interfaz:** doble clic en `Brumaferal/Brumaferal.uproject`. Cuando pregunte si quieres recompilar los módulos, responde **Sí**.
 
@@ -155,7 +161,7 @@ Select-String "BRUMA_RENDER" Tools\visual-audit.log
 **Reglas del proyecto**
 - **Prioridad de trabajo:** movimiento y cámara → presentación visual → combate → progresión → cooperativo → contenido. No añadir contenido para tapar problemas de movimiento, cámara o aspecto.
 - **Recursos originales:** nada extraído de MEGABONK.
-- **No versionar** `Binaries/`, `Intermediate/`, `Saved/`, `DerivedDataCache/` ni `.sln`. El `.gitignore` ya los excluye.
+- **Estado generado (`Binaries/`, `Intermediate/`, `Saved/`, `DerivedDataCache/`, logs):** se versionó una vez para conservar el contexto del PC original. Al compilar o jugar en tu máquina, Unreal los modificará y `git status` los mostrará como cambiados. **No hagas commit de esos cambios** salvo que el equipo lo acuerde: incluye en tus commits solo código, configuración, recursos y documentación. Para descartarlos: `git restore Brumaferal/Binaries Brumaferal/Intermediate Brumaferal/Saved`.
 - Los `.uasset` son binarios y **no se pueden fusionar**. Avisa al equipo antes de modificar uno; hoy solo hay 3, en `Content/Art`. Si el arte crece, habrá que activar **Git LFS**.
 - **No modificar** `sources/` ni `Riftbound/`, salvo acuerdo explícito.
 - **Parámetros de juego:** hoy están escritos directamente en el código (ver [docs/ANALISIS.md §3](docs/ANALISIS.md#3-parámetros-actuales)). Cuando los cambies, actualiza esa tabla.
@@ -173,3 +179,4 @@ Select-String "BRUMA_RENDER" Tools\visual-audit.log
 | Archivos bloqueados o compilación inestable | El proyecto está dentro de OneDrive: mover el clon fuera o pausar la sincronización. |
 | Todo se ve gris o sin colores | No cargaron los materiales de `/Game/Art`. Regenerarlos con `materials.py` (§4). |
 | La primera apertura tarda mucho | Normal: Unreal compila shaders la primera vez. |
+| Errores de compilación que mencionan `C:\Users\BALAMRUSH\...` | Son cachés del PC original. Borra `Intermediate/` en tu copia local (sin hacer commit) y vuelve a compilar. |

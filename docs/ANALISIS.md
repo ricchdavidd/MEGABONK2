@@ -66,7 +66,7 @@ Todos están escritos directamente en el código. No hay DataAssets ni tablas.
 
 ## 4. Verificado vs. pendiente
 
-**Verificado** (registros en `Brumaferal/Tools/*.log`, no versionados, y capturas en `docs/img/`):
+**Verificado** (registros en `Brumaferal/Tools/*.log` y capturas en `docs/img/` y `Brumaferal/Saved/Screenshots/`, generados en el PC original; ver [RUTAS_Y_ENTORNO_ORIGINAL.md](RUTAS_Y_ENTORNO_ORIGINAL.md)):
 - Compila en Development Editor con UE 5.8.2.
 - `BrumaAudit` PASS: suelo, desplazamiento > 600 u, cámara a > 400 u, salto de 194.7 u, XP, mejora, rechazo de mejora sin puntos, cristal, cofre, santuario, victoria y reinicio.
 - `BrumaVisualAudit`: 3155 muestras, media de 3.17 ms y percentil 95 de 4.12 ms, con 55 enemigos extra.

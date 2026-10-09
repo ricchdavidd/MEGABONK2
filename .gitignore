@@ -1,15 +1,9 @@
-# Productos generados por Unreal (se regeneran al compilar/abrir)
-**/Binaries/
-**/Intermediate/
-**/DerivedDataCache/
-**/Saved/
-**/.vs/
-*.sln
-*.VC.db
-*.opendb
+# Se versiona TODO el estado del proyecto (binarios, intermedios, Saved, registros)
+# para conservar el contexto completo. Única excepción:
 
-# Registros de ejecución de Brumaferal (se regeneran con las pruebas)
-Brumaferal/Tools/*.log
+# Encabezados precompilados de Unreal: ~2.6 GB cada uno, superan el límite de
+# GitHub (incluso con LFS). Se regeneran solos al compilar.
+*.pch
 
 # Sistema
 Thumbs.db

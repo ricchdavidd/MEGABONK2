@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Brumaferal",
+			"Path": "..\\Source\\Brumaferal.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BrumaferalEditor",
+			"Path": "..\\Source\\BrumaferalEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
